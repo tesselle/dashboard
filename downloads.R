@@ -59,7 +59,7 @@ if (Sys.Date() - from >= 0) {
       ) |>
       dplyr::ungroup()
 
-    write.csv(downloads_daily, file = data_daily)
-    write.csv(downloads_monthly, file = data_monthly)
+    write.csv(downloads_daily, file = data_daily, row.names = FALSE)
+    write.csv(downloads_monthly, file = data_monthly, row.names = FALSE)
   }
 }

@@ -23,7 +23,8 @@ Imports:
     httr2,
     knitr,
     quarto,
-    tools
+    tools,
+    yaml
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

@@ -7,14 +7,15 @@ default-image-extension: ""
 ```{r}
 #| label: setup
 ## Load packages
-library(ggplot2)
+source("utilities.R")
 
 ## Prepare data
 metadata <- read.csv(file.path("data", "metadata.csv"))
 metadata$package <- as.factor(metadata$package)
 metadata$publication <- as.Date(metadata$publication)
 
-issues <- read.csv(file.path("data", "issues.csv"))
+issues <- yaml::read_yaml(file.path("data", "issues.yml"))
+issues <- gh_summary(issues)
 
 downloads <- read.csv(file.path("data", "downloads_monthly.csv"))
 downloads$package <- as.factor(downloads$package)
@@ -63,7 +64,6 @@ resume <- data.frame(
   check = link_check,
   row.names = NULL
 )
-pal_status <- col_status
 
 resume |> 
   gt::gt() |> 
@@ -130,35 +130,40 @@ downloads |>
   ggplot2::scale_color_manual(values = col_pkg, name = "Package")
 ```
 
-# Issues
-
-## Row
+# Issues {scrolling="true"}
 
 ```{r}
 #| label: github-issues
-#| title: "GitHub Issues"
-# issues$repository <- sprintf("[%s](%s)", issues$repository, issues$repository)
-issues$title <- sprintf("[%s](%s)", issues$title, issues$html_url)
+#| results: asis
+issues <- split(issues, f = issues$repository)
 
-issues |> 
-  gt::gt(groupname_col = "repository") |> 
-  gt::cols_hide(columns = c("repository_url", "html_url", "number", "state")) |> 
-  # gt::cols_move_to_start(columns = "repository") |> 
-  gt::fmt_markdown(columns = c("title")) |> 
-  gt::fmt_url(
-    columns = c("repository", "title"),
-    color = "black"
-  ) |> 
-  gt::cols_label(
-    repository = "Repository",
-    title = "Title"
-  ) |> 
-  gt::tab_options(
-    table.width = "100%",
-    ihtml.active = TRUE,
-    ihtml.use_pagination = FALSE,
-    ihtml.use_sorting = TRUE
-  )
+for (i in seq_along(issues)) {
+  tbl <- issues[[i]] |> 
+    gt::gt() |> 
+    gt::cols_hide(columns = c("repository", "repository_url", "html_url", "number", "state")) |> 
+    gt::fmt_markdown(columns = c("title", "labels")) |> 
+    gt::sub_missing(
+      missing_text = "---"
+    ) |> 
+    gt::tab_style(
+      style = gt::cell_text(weight = "bold"),
+      locations = gt::cells_row_groups()
+    ) |> 
+    gt::cols_label(
+      title = "Title",
+      created_at = "Date created",
+      updated_at = "Date updated",
+      comments = "Comments",
+      labels = "Labels"
+    ) |> 
+    gt::tab_options(
+      table.width = "100%"
+    )
+  
+  cat(sprintf(":::{.card title='%s' fill=false expandable=false}\n", names(issues)[i]))
+  print(tbl)
+  cat("\n:::\n")
+}
 ```
 
 # Downloads {scrolling="true"}
