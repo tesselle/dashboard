@@ -1,0 +1,204 @@
+---
+title: "dashboard.tesselle"
+format: dashboard
+default-image-extension: ""
+---
+
+```{r}
+#| label: setup
+## Load packages
+library(ggplot2)
+
+## Prepare data
+metadata <- read.csv(file.path("data", "metadata.csv"))
+metadata$package <- as.factor(metadata$package)
+metadata$publication <- as.Date(metadata$publication)
+
+issues <- read.csv(file.path("data", "issues.csv"))
+
+downloads <- read.csv(file.path("data", "downloads_monthly.csv"))
+downloads$package <- as.factor(downloads$package)
+downloads$month <- as.Date(downloads$month)
+
+## Summarize
+results <- data.frame(
+  package = levels(downloads$package),
+  downloads_total = tapply(X = downloads$adjusted_downloads, INDEX = downloads$package, FUN = sum),
+  downloads_mean = round(tapply(X = downloads$adjusted_downloads, INDEX = downloads$package, FUN = mean))
+)
+metadata <- merge(metadata, results, by = "package", all = TRUE, sort = TRUE)
+
+col_status <- c(OK    = "#198754", NOTE    = "#0d6efd", WARNING = "#ffc107", 
+                ERROR = "#dc3545", FAILURE = "#dc3545")
+col_pkg <- c(aion     = "#882E72", alkahest = "#1965B0", arkhe      = "#5289C7", 
+             dimensio = "#7BAFDE", folio    = "#4EB265", isopleuros = "#CAE0AB", 
+             kairos   = "#F7F056", khroma   = "#F4A736", nexus      = "#E8601C", 
+             tabula   = "#DC050C", tesselle = "#72190E")
+```
+
+# Summary
+
+## Row
+
+```{r}
+#| label: cran-info
+#| title: "CRAN Info"
+pkg <- metadata$package # ananke, kinesis
+
+link_cran <- sprintf("[%s](https://cran.r-project.org/package=%s)", pkg, pkg)
+link_cran[is.na(metadata$version)] <- NA
+link_check <- sprintf("[%s](https://cran.r-project.org/web/checks/check_results_%s.html)", 
+                      metadata$status, pkg)
+link_check[is.na(metadata$version)] <- NA
+link_docs <- sprintf("[%s](https://packages.tesselle.org/%s)", pkg, pkg)
+link_repo <- sprintf("[%s](https://github.com/tesselle/%s)", pkg, pkg)
+
+resume <- data.frame(
+  package = link_docs,
+  version = metadata$version, 
+  date = metadata$publication,
+  total = metadata$downloads_total,
+  mean = metadata$downloads_mean,
+  status = factor(metadata$status, levels = names(col_status)),
+  check = link_check,
+  row.names = NULL
+)
+pal_status <- col_status
+
+resume |> 
+  gt::gt() |> 
+  gt::cols_hide(columns = "status") |> 
+  gt::fmt_markdown(columns = c("package", "check")) |> 
+  gt::fmt_url(
+    columns = c("package", "check"),
+    color = "black"
+  ) |> 
+  gt::data_color(
+    columns = "status",
+    target_columns = "check",
+    palette = col_status,
+    alpha = 0.5
+  ) |> 
+  gt::sub_missing(
+    missing_text = "---"
+  ) |> 
+  gt::tab_spanner(
+    label = "Release",
+    columns = c("version", "date")
+  ) |> 
+  gt::tab_spanner(
+    label = "Downloads",
+    columns = c("total", "mean")
+  ) |> 
+  gt::cols_label(
+    package = "Package",
+    version = "Version", 
+    date = "Date",
+    total = "Total",
+    mean = "Monthly",
+    check = "Status",
+  ) |> 
+  gt::tab_options(
+    table.width = "100%",
+    ihtml.active = TRUE,
+    ihtml.use_pagination = FALSE,
+    ihtml.use_sorting = TRUE
+  )
+```
+
+```{r}
+#| label: cumulative-dowloads
+#| title: "Cumulative Downloads"
+#| fig-width: 7
+#| fig-height: 7
+cap1 <- "Source: RStudio CRAN mirror (adjusted)."
+cap2 <- sprintf("Last update: %s.", Sys.Date())
+
+downloads |>
+  ggplot2::ggplot() +
+  ggplot2::aes(x = month, y = total_downloads, colour = package) +
+  ggplot2::geom_point() +
+  ggplot2::geom_line() +
+  ggplot2::scale_y_continuous(name = "Cumulative downloads", limits = c(0, NA)) +
+  ggplot2::labs(caption = paste(cap1, cap2, sep = "\n")) +
+  ggplot2::theme_bw() +
+  ggplot2::theme(
+    legend.position = "bottom",
+    axis.text.x = ggplot2::element_text(angle = 45, hjust = 1, vjust = 1),
+    axis.title.x = ggplot2::element_blank()
+  ) +
+  ggplot2::scale_color_manual(values = col_pkg, name = "Package")
+```
+
+# Issues
+
+## Row
+
+```{r}
+#| label: github-issues
+#| title: "GitHub Issues"
+# issues$repository <- sprintf("[%s](%s)", issues$repository, issues$repository)
+issues$title <- sprintf("[%s](%s)", issues$title, issues$html_url)
+
+issues |> 
+  gt::gt(groupname_col = "repository") |> 
+  gt::cols_hide(columns = c("repository_url", "html_url", "number", "state")) |> 
+  # gt::cols_move_to_start(columns = "repository") |> 
+  gt::fmt_markdown(columns = c("title")) |> 
+  gt::fmt_url(
+    columns = c("repository", "title"),
+    color = "black"
+  ) |> 
+  gt::cols_label(
+    repository = "Repository",
+    title = "Title"
+  ) |> 
+  gt::tab_options(
+    table.width = "100%",
+    ihtml.active = TRUE,
+    ihtml.use_pagination = FALSE,
+    ihtml.use_sorting = TRUE
+  )
+```
+
+# Downloads {scrolling="true"}
+
+```{r}
+#| label: monthly-dowloads
+#| results: asis
+downloads <- downloads |> 
+  split(f = downloads$package) |> 
+  lapply(
+    FUN = function(x) {
+      down <- x$adjusted_downloads
+      smooth <- convolve(x = down, y = c(1, 1, 1) / 3, type = "filter")
+      x$smoothed <- c(down[[1]], smooth, down[[length(down)]])
+      x
+    }
+  )
+
+cap1 <- "Source: RStudio CRAN mirror (adjusted; 3 months sliding-average)."
+cap2 <- sprintf("Last update: %s.", Sys.Date())
+
+for (i in seq_along(downloads)) {
+  gg_core <- ggplot2::ggplot(data = downloads[[i]]) +
+    ggplot2::aes(x = month, y = smoothed) +
+    # ggplot2::geom_point() +
+    ggplot2::geom_line() +
+    ggplot2::scale_y_log10(name = "Downloads per month", limits = c(NA, NA)) +
+    # ggplot2::scale_y_continuous(name = "Downloads per month", limits = c(0, NA)) +
+    ggplot2::labs(caption = paste(cap1, cap2, sep = "\n")) +
+    ggplot2::theme_bw() +
+    ggplot2::theme(
+      axis.text.x = ggplot2::element_text(angle = 45, hjust = 1, vjust = 1),
+      axis.title.x = ggplot2::element_blank(),
+      legend.position = "none"
+    )
+  
+  if (i == 1) cat("## Row\n")
+  cat(sprintf(":::{.card title='%s' fill=false}\n", names(downloads)[i]))
+  print(gg_core)
+  cat("\n:::\n")
+  if (i %% 3 == 0) cat("## Row\n")
+}
+```

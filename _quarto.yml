@@ -1,5 +1,20 @@
 project:
-  title: "dashboard"
+  type: website
 
+website:
+  title: "dashboard.tesselle"
+  description: |
+    tesselle is a collection of [R](https://www.r-project.org/) packages for
+    research and teaching in archaeology. These packages focus on quantitative
+    analysis methods developed for archaeology. The tesselle packages are
+    designed to work seamlessly together and to complement general-purpose and
+    other specialized statistical packages.
 
+  site-url: https://dashboard.tesselle.org
+  repo-url: https://github.com/tesselle/dashboard
+  repo-actions: [edit, issue]
 
+  page-footer:
+    center: |
+      <a href="https://www.u-bordeaux-montainge.fr"><img src="https://www.tesselle.org/images/logo-ubm.svg" height="72" /></a><a href="https://www.cnrs.fr"><img src="https://www.tesselle.org/images/logo-cnrs.svg" height="72" /></a>
+      <noscript><p><img src="https://analyseweb.huma-num.fr/matomo.php?idsite=332&rec=1" style="border:0" alt="" /></p></noscript>
