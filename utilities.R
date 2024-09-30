@@ -103,3 +103,17 @@ gh_summary <- function(x, what = c("number", "title",
   x <- x[x$state == "open", , drop = FALSE]
   x
 }
+
+# OpenAlex =====
+oa_summary <- function(x, what = c("title", "so", "url", "publication_year")) {
+  lapply(
+    X = x,
+    FUN = function(x) {
+      x <- lapply(x, `[`, what)
+      x <- lapply(x, as.data.frame)
+      x <- do.call(rbind, x)
+      x$title <- sprintf("<a href='%s'>%s</a>", x$url, x$title)
+      x
+    }
+  )
+}

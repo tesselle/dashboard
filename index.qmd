@@ -21,6 +21,9 @@ downloads <- read.csv(file.path("data", "downloads_monthly.csv"))
 downloads$package <- as.factor(downloads$package)
 downloads$month <- as.Date(downloads$month)
 
+citations <- yaml::read_yaml(file.path("data", "citations.yml"))
+citations <- oa_summary(citations)
+
 ## Summarize
 results <- data.frame(
   package = levels(downloads$package),
@@ -205,5 +208,33 @@ for (i in seq_along(downloads)) {
   print(gg_core)
   cat("\n:::\n")
   if (i %% 3 == 0) cat("## Row\n")
+}
+```
+
+# Citations {scrolling="true"}
+
+```{r}
+#| label: citations
+#| results: asis
+for (i in seq_along(citations)) {
+  tbl <- citations[[i]] |> 
+    gt::gt() |> 
+    gt::cols_hide(columns = "url") |> 
+    gt::fmt_markdown(columns = c("title")) |> 
+    gt::sub_missing(
+      missing_text = "---"
+    ) |> 
+    gt::cols_label(
+      title = "Title",
+      so = "Source",
+      publication_year = "Date",
+    ) |> 
+    gt::tab_options(
+      table.width = "100%"
+    )
+  
+  cat(sprintf(":::{.card title='%s' fill=false expandable=false}\n", names(citations)[i]))
+  print(tbl)
+  cat("\n:::\n")
 }
 ```

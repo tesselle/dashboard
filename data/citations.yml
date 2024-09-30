@@ -1,0 +1,1437 @@
+kairos:
+- id: https://openalex.org/W4378902656
+  title: 'shoredate: An R package for shoreline dating coastal Stone Age sites'
+  display_name: 'shoredate: An R package for shoreline dating coastal Stone Age sites'
+  author:
+  - ~
+  ab: As a result of glacio-isostatic rebound, large regions of Fennoscandia have
+    undergone a process of relative sea-level fall following the retreat of the Fennoscandian
+    Ice Sheet.Furthermore, coastal Stone Age sites in the region appear to have been
+    predominantly located on or close to the shoreline when they were in use.Based
+    on their altitude relative to the present-day sea-level, this can be combined
+    with a reconstruction of past relative sea-level change to assign an approximate
+    date to when the sites were in use.This method, called shoreline dating, has been
+    used in the region since the early 1900s (e.g.Brøgger, 1905) and is still widely
+    applied today (e.g.
+  publication_date: '2023-05-31'
+  so: The Journal of Open Source Software
+  so_id: https://openalex.org/S4210214273
+  host_organization: Open Journals
+  issn_l: 2475-9066
+  url: https://doi.org/10.21105/joss.05337
+  pdf_url: https://joss.theoj.org/papers/10.21105/joss.05337.pdf
+  license: cc-by
+  version: publishedVersion
+  first_page: '5337'
+  last_page: '5337'
+  volume: '8'
+  issue: '85'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: diamond
+  oa_url: https://joss.theoj.org/papers/10.21105/joss.05337.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants: .na
+  cited_by_count: 3
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4378902656
+  ids:
+  - ~
+  doi: https://doi.org/10.21105/joss.05337
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4388670873
+  title: A Bayesian alternative for Aoristic analyses in archaeology
+  display_name: A Bayesian alternative for Aoristic analyses in archaeology
+  author:
+  - ~
+  ab: Aoristic analysis is often used to handle chronological uncertainties of datasets
+    where scientific dates (e.g. 14C, OSL, etc.) are not available, and observations
+    are described by association to archaeological periods or phases. While several
+    advances have been made over the last two decades, the basic principle of this
+    approach remains fundamentally the same. Temporal windows of analyses are first
+    divided into regularly sized time-blocks and probability weight is assigned to
+    each of these for every observation. Weights are then aggregated by time-block,
+    and the resulting vector of summed probabilities is interpreted as a curve representing
+    changes in the intensity over time of a particular phenomenon. This paper reviews
+    the basic principles and assumptions of aoristic analyses in archaeology, highlighting
+    several issues with its application and interpretation and advocating for a Bayesian
+    alternative implemented via baorista, a new package written in R statistical computing
+    language. The robustness of the proposed solution is evaluated through a series
+    of experiments based on simulated datasets, which showcase key advantages over
+    aoristic analysis. Two specific solutions are considered, a parametric approach
+    where data are fitted to specific growth models and a non-parametric approach
+    that allows a visualisation of the changing frequencies of events that account
+    for sampling error and the peculiarities of archaeological periodisation.
+  publication_date: '2023-11-13'
+  so: .na.character
+  so_id: .na.character
+  host_organization: .na.character
+  issn_l: .na.character
+  url: https://doi.org/10.31219/osf.io/98qkx
+  pdf_url: https://osf.io/98qkx/download
+  license: .na.character
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://osf.io/98qkx/download
+  any_repository_has_fulltext: yes
+  language: en
+  grants: .na
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4388670873
+  ids:
+  - ~
+  doi: https://doi.org/10.31219/osf.io/98qkx
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+khroma:
+- id: https://openalex.org/W4392712976
+  title: How Does the Southern Annular Mode Control Surface Melt in East Antarctica?
+  display_name: How Does the Southern Annular Mode Control Surface Melt in East Antarctica?
+  author:
+  - ~
+  ab: Abstract Surface melt in East Antarctica is strongly correlated with the Southern
+    Annular Mode (SAM) index, but the spatiotemporal variability of the relationship,
+    and the physical processes responsible for it, have not been examined. Here, using
+    melt flux estimates and climate variables from the RACMO2.3p3 regional climate
+    model, we show that a decreasing SAM index is associated with increased melt in
+    Dronning Maud Land primarily owing to reduced precipitation and greater absorption
+    of solar radiation. Conversely, in Wilkes Land, a decreasing SAM index corresponds
+    to increased melt because of greater incoming longwave radiation from a warmer
+    atmosphere. We also demonstrate that SAM‐melt correlations are strongest in December
+    as the melt season develops, and that the SAM’s influence on peak melt intensities
+    in January occurs indirectly through the snowmelt‐albedo feedback. Future work
+    must account for such variability in the physical processes underlying the SAM‐melt
+    relationship to reduce uncertainty in surface melt projections.
+  publication_date: '2024-03-11'
+  so: Geophysical Research Letters
+  so_id: https://openalex.org/S36624081
+  host_organization: American Geophysical Union
+  issn_l: 0094-8276
+  url: https://doi.org/10.1029/2023gl105475
+  pdf_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023GL105475
+  license: cc-by
+  version: publishedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: '51'
+  issue: '6'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2023GL105475
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4392712976
+  ids:
+  - ~
+  doi: https://doi.org/10.1029/2023gl105475
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4401182215
+  title: Genome-wide local ancestry and the functional consequences of admixture in
+    African and European cattle populations
+  display_name: Genome-wide local ancestry and the functional consequences of admixture
+    in African and European cattle populations
+  author:
+  - ~
+  ab: <title>Abstract</title> <italic>Bos taurus</italic> (taurine) and <italic>Bos
+    indicus</italic> (indicine) cattle diverged at least 150,000 years ago and, since
+    that time, substantial genomic differences have evolved between the two lineages.
+    During the last two millennia, genetic exchange in Africa has resulted in a complex
+    tapestry of taurine-indicine ancestry, with most cattle populations exhibiting
+    varying levels of admixture. Similarly, there are several Southern European cattle
+    populations that also show evidence for historical gene flow from indicine cattle,
+    the highest levels of which are found in the Central Italian White breeds. Here
+    we use two different software tools (MOSAIC and ELAI) for local ancestry inference
+    (LAI) with genome-wide high- and low-density SNP array data sets in hybrid African
+    and Italian cattle populations and obtained broadly similar results despite critical
+    differences in the two LAI methodologies used. Our analyses identified genomic
+    regions with elevated levels of retained or introgressed ancestry from the African
+    taurine, European taurine, Asian indicine lineages. Functional enrichment of genes
+    underlying these ancestry peaks highlighted biological processes relating to immunobiology
+    and olfaction, some of which may relate to differing susceptibilities to infectious
+    diseases, including bovine tuberculosis, East Coast fever, and tropical theileriosis.
+    Notably, for retained African taurine ancestry in admixed trypanotolerant cattle
+    we observed enrichment of genes associated with haemoglobin and oxygen transport.
+    This may reflect positive selection of genomic variants that enhance control of
+    severe anaemia, a debilitating feature of trypanosomiasis disease, which severely
+    constrains cattle agriculture across much of sub-Saharan Africa.
+  publication_date: '2024-07-31'
+  so: Research Square (Research Square)
+  so_id: https://openalex.org/S4306402450
+  host_organization: Research Square (United States)
+  issn_l: .na.character
+  url: https://doi.org/10.21203/rs.3.rs-4622059/v1
+  pdf_url: https://www.researchsquare.com/article/rs-4622059/latest.pdf
+  license: cc-by
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://www.researchsquare.com/article/rs-4622059/latest.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4401182215
+  ids:
+  - ~
+  doi: https://doi.org/10.21203/rs.3.rs-4622059/v1
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4308147631
+  title: Aerosolized aqueous dust extracts collected near a drying lake trigger acute
+    neutrophilic pulmonary inflammation reminiscent of microbial innate immune ligands
+  display_name: Aerosolized aqueous dust extracts collected near a drying lake trigger
+    acute neutrophilic pulmonary inflammation reminiscent of microbial innate immune
+    ligands
+  author:
+  - ~
+  ab: A high incidence of asthma is prevalent among residents near the Salton Sea,
+    a large inland terminal lake in southern California. This arid region has high
+    levels of ambient particulate matter (PM); yet while high PM levels are often
+    associated with asthma in many environments, it is possible that the rapidly retreating
+    lake, and exposed playa or lakebed, may contribute components with a specific
+    role in promoting asthma symptoms.Our hypothesis is that asthma may be higher
+    in residents closest to the Salton Sea due to chronic exposures to playa dust.
+    Playa emissions may be concentrating dissolved material from the lake, with microbial
+    components capable of inducing pulmonary innate immune responses. To test this
+    hypothesis, we used a mouse model of aerosol exposures to assess the effects of
+    playa dust.From dust collected around the Salton Sea region, aqueous extracts
+    were used to generate aerosols, which were injected into an environmental chamber
+    for mouse exposure studies. We compared the effects of exposure to Salton Sea
+    aerosols, as well as to known immunostimulatory reference materials. Acute 48-h
+    and chronic 7-day exposures were compared, with lungs analyzed for inflammatory
+    cell recruitment and gene expression.Dust from sites nearest to the Salton Sea
+    triggered lung neutrophil inflammation that was stronger at 48-h but reduced at
+    7-days. This acute inflammatory profile and kinetics resembled the response to
+    innate immune ligands LTA and LPS while distinct from the classic allergic response
+    to Alternaria.Lung inflammatory responses to Salton Sea dusts are similar to acute
+    innate immune responses, raising the possibility that microbial components are
+    entrained in the dust, promoting inflammation. This effect highlights the health
+    risks at drying terminal lakes from inflammatory components in dust emissions
+    from exposed lakebed.
+  publication_date: '2022-11-02'
+  so: The Science of The Total Environment
+  so_id: https://openalex.org/S86852077
+  host_organization: Elsevier BV
+  issn_l: 0048-9697
+  url: https://doi.org/10.1016/j.scitotenv.2022.159882
+  pdf_url: .na.character
+  license: cc-by
+  version: publishedVersion
+  first_page: '159882'
+  last_page: '159882'
+  volume: '858'
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: hybrid
+  oa_url: https://doi.org/10.1016/j.scitotenv.2022.159882
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 2
+  counts_by_year:
+  - ~
+  publication_year: 2022
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4308147631
+  ids:
+  - ~
+  doi: https://doi.org/10.1016/j.scitotenv.2022.159882
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4297851717
+  title: 'Aerosolized Desert Dusts Collected Near a Drying Lake and Pulmonary Inflammation
+    in Mice: Implications for Environmental Exposures and Asthma'
+  display_name: 'Aerosolized Desert Dusts Collected Near a Drying Lake and Pulmonary
+    Inflammation in Mice: Implications for Environmental Exposures and Asthma'
+  author:
+  - ~
+  ab: Abstract Background A high incidence of asthma is prevalent among residents
+    near the Salton Sea, a large inland terminal lake in southern California. This
+    arid region has high levels of ambient particulate matter (PM); yet while high
+    PM levels are often associated with asthma in many environments, it is possible
+    that the rapidly retreating lake may contribute components with a specific role
+    in promoting asthma symptoms. Objectives Our hypothesis is that asthma may be
+    higher in residents closest to the Salton Sea due to chronic exposures to playa
+    dust. Playa emissions may be concentrating dissolved material from the lake, with
+    microbial components capable of inducing pulmonary innate immune responses. Such
+    inflammatory responses may contribute to the development of asthma-like symptoms
+    in residents. To test this hypothesis, we used a mouse model of aerosol exposures
+    to assess the effects of playa dust. Methods From dust collected around the Salton
+    Sea region, aqueous extracts were used to generate aerosols, which were injected
+    into an environmental chamber for mouse exposure studies. We compared the effects
+    of exposure to Salton Sea aerosols, as well as to known immunostimulatory reference
+    materials. Acute 48-hour and chronic 7-day exposures were compared, with lungs
+    analyzed for inflammatory cell recruitment and gene expression. Results Dust from
+    sites nearest to the Salton Sea triggered lung neutrophil inflammation that was
+    stronger at 48-hours but reduced at 7-days. This acute inflammatory profile and
+    kinetics resembled the response to innate immune ligands LTA and LPS while distinct
+    from the classic allergic response to Alternaria . Conclusion Lung inflammatory
+    responses to Salton Sea dusts are similar to acute innate immune responses, raising
+    the possibility that microbial components are entrained in the dust, promoting
+    inflammation. This effect highlights the health risks at drying terminal lakes
+    from inflammatory components in dust emissions from exposed lakebed.
+  publication_date: '2022-09-09'
+  so: bioRxiv (Cold Spring Harbor Laboratory)
+  so_id: https://openalex.org/S4306402567
+  host_organization: Cold Spring Harbor Laboratory
+  issn_l: .na.character
+  url: https://doi.org/10.1101/2022.09.07.506987
+  pdf_url: https://www.biorxiv.org/content/biorxiv/early/2022/09/09/2022.09.07.506987.full.pdf
+  license: .na.character
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2022/09/09/2022.09.07.506987.full.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2022
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4297851717
+  ids:
+  - ~
+  doi: https://doi.org/10.1101/2022.09.07.506987
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+tabula:
+- id: https://openalex.org/W4323320164
+  title: Divergent vertebral formulae shape the evolution of axial complexity in mammals
+  display_name: Divergent vertebral formulae shape the evolution of axial complexity
+    in mammals
+  author:
+  - ~
+  ab: Complexity, defined as the number of parts and their degree of differentiation,
+    is a poorly explored aspect of macroevolutionary dynamics. The maximum anatomical
+    complexity of organisms has undoubtedly increased through evolutionary time. However,
+    it is unclear whether this increase is a purely diffusive process or whether it
+    is at least partly driven, occurring in parallel in most or many lineages and
+    with increases in the minima as well as the means. Highly differentiated and serially
+    repeated structures, such as vertebrae, are useful systems with which to investigate
+    these patterns. We focus on the serial differentiation of the vertebral column
+    in 1,136 extant mammal species, using two indices that quantify complexity as
+    the numerical richness and proportional distribution of vertebrae across presacral
+    regions and a third expressing the ratio between thoracic and lumbar vertebrae.
+    We address three questions. First, we ask whether the distribution of complexity
+    values in major mammal groups is similar or whether clades have specific signatures
+    associated with their ecology. Second, we ask whether changes in complexity throughout
+    the phylogeny are biased towards increases and whether there is evidence of driven
+    trends. Third, we ask whether evolutionary shifts in complexity depart from a
+    uniform Brownian motion model. Vertebral counts, but not complexity indices, differ
+    significantly between major groups and exhibit greater within-group variation
+    than recognized hitherto. We find strong evidence of a trend towards increasing
+    complexity, where higher values propagate further increases in descendant lineages.
+    Several increases are inferred to have coincided with major ecological or environmental
+    shifts. We find support for multiple-rate models of evolution for all complexity
+    metrics, suggesting that increases in complexity occurred in stepwise shifts,
+    with evidence for widespread episodes of recent rapid divergence. Different subclades
+    evolve more complex vertebral columns in different configurations and probably
+    under different selective pressures and constraints, with widespread convergence
+    on the same formulae. Further work should therefore focus on the ecological relevance
+    of differences in complexity and a more detailed understanding of historical patterns.
+  publication_date: '2023-03-06'
+  so: Nature Ecology & Evolution
+  so_id: https://openalex.org/S2764884935
+  host_organization: Nature Portfolio
+  issn_l: 2397-334X
+  url: https://doi.org/10.1038/s41559-023-01982-5
+  pdf_url: https://www.nature.com/articles/s41559-023-01982-5.pdf
+  license: cc-by
+  version: publishedVersion
+  first_page: '367'
+  last_page: '381'
+  volume: '7'
+  issue: '3'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: hybrid
+  oa_url: https://www.nature.com/articles/s41559-023-01982-5.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 9
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4323320164
+  ids:
+  - ~
+  doi: https://doi.org/10.1038/s41559-023-01982-5
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4385603962
+  title: 'Diversity of diversity indices: Which diversity measure is better?'
+  display_name: 'Diversity of diversity indices: Which diversity measure is better?'
+  author:
+  - ~
+  ab: 'The article evaluates the dependence of the most common indices of species
+    diversity on sample size and determines their ability to differentiate between
+    different types of ecosystems, with a special emphasis on discriminating between
+    natural and anthropogenic ecosystems. An approach to adjusting the indices to
+    reduce their dependence on sample size was also proposed. The study was conducted
+    in seven types of ecosystems: four were natural and three were anthropogenically
+    transformed. Samples of soil animals were selected in 2011–2013 and 2021 using
+    the same methods. A total of 20,518 soil animal specimens belonging to 202 species
+    were collected in all study locations. The null alternative was generated by randomly
+    selecting samples containing 2, 3, ..., 110 soil animals from the combined soil
+    animal sample. For each gradation of sample size, 200 sample variants were formed.
+    The density of soil macrofauna in natural ecosystems ranged from 3.6 ± 1.5 to
+    15.2 ± 6.9 specimens per sample, and in artificial ecosystems – from 13.2 ± 7.6
+    to 21.0 ± 11.9 specimens per sample. The number of species ranged from 22–80 species,
+    and in artificial ecosystems it was 38–99 species. Indicators of species diversity
+    correlated with each other. A high level of correlation was observed between indicators
+    within groups of indices: indices of species richness and indices of heterogeneity
+    and evenness. Fisher’s log-series alpha and the fundamental parameter of biodiversity
+    were highly correlated with each other, as well as with the Margalef, species
+    richness, and Chao’s species abundance indices. The log-normal distribution best
+    describes the dominance patterns in terms of abundance in the natural ecosystems,
+    and the Zipf-Mandelbrot distribution best describes the dominance patterns in
+    terms of abundance in the artificial ecosystems. Diversity indices were ordered
+    in the space of two dimensions, one explaining the variation between ecosystems
+    and the other depending on sample size. The ordering of the traditional indices
+    showed that there is a vacancy for the best index in the sense that such an index
+    should best explain differences between ecosystems and differences between natural
+    and artificial ecosystems. It should also be independent of sample size. The Simpson
+    heterogeneity index and the Simpson evenness index were the best of the traditional
+    indices, but they did not explain differences between ecosystems very well, especially
+    when it came to distinguishing between natural and artificial ecosystems. The
+    Margalef index, which is supposed to be independent of sample size, on the other
+    hand, showed a very high level of dependence. Such a dependence was also found
+    for the Menhinick index, though to a lesser extent. Obviously, size dependence
+    negatively affects the differential ability of the indices. The corrected indices
+    of species richness and the Shannon index are practically independent of sample
+    size and have a greater ability to differentiate ecosystems by the level of diversity,
+    with natural ecosystems characterized by consistently higher values of the corrected
+    indices than artificial ecosystems. The dependence on the sample size makes indices
+    from different ecosystems practically incomparable, which makes their use meaningless.
+    Even minor differences in sample size can lead to significant deviations in the
+    values of diversity indices. The application of the Michaelis-Menten model allowed
+    us to suggest a method of correction of species richness indices and the Shannon
+    index. After the correction, the indices are practically independent of the sample
+    size, and their differential ability to characterize individual ecosystems and
+    the level of anthropogenic transformation increases significantly.'
+  publication_date: '2023-05-02'
+  so: Biosystems Diversity
+  so_id: https://openalex.org/S4306504439
+  host_organization: Oles Honchar Dnipro National University
+  issn_l: 2519-8513
+  url: https://doi.org/10.15421/012314
+  pdf_url: https://ecology.dp.ua/index.php/ECO/article/download/1193/1143
+  license: cc-by
+  version: publishedVersion
+  first_page: '131'
+  last_page: '146'
+  volume: '31'
+  issue: '2'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://ecology.dp.ua/index.php/ECO/article/download/1193/1143
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 4
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4385603962
+  ids:
+  - ~
+  doi: https://doi.org/10.15421/012314
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4288748945
+  title: 'Archeofrag: an R package for Refitting and Spatial Analysis in Archaeology'
+  display_name: 'Archeofrag: an R package for Refitting and Spatial Analysis in Archaeology'
+  author:
+  - ~
+  ab: 'Distinguishing between spatial entities is fundamental in archaeology since
+    archaeologists deal with spatial phenomena at multiple scales of analysis.During
+    an excavation, objects are discovered within various types of spatial units e.g.,
+    stratigraphic layers, pits, hearths and houses.Spatial units are far from being
+    raw data, and the identification and determination of their boundaries is the
+    result of conjoint lines and methods of investigation, to name only a few: field
+    observations, geoarchaeology, sedimentology, and the study of archaeological "refits".Refitting
+    fragments belonged to the same object at some moment in the past.More precisely,
+    archaeologists deduce former connection relationships from the symmetry and the
+    possibility of contact of significantly large surface areas from two fragments,
+    which can be physically adjusted (the fragments "refit").Here, "connection" is
+    used as a shorthand to refer to the connection relationship that existed in the
+    past between two areas of an object before they were broken into fragments.Archaeological
+    refitting analysis has several aims:'
+  publication_date: '2022-07-30'
+  so: The Journal of Open Source Software
+  so_id: https://openalex.org/S4210214273
+  host_organization: Open Journals
+  issn_l: 2475-9066
+  url: https://doi.org/10.21105/joss.04335
+  pdf_url: https://joss.theoj.org/papers/10.21105/joss.04335.pdf
+  license: cc-by
+  version: publishedVersion
+  first_page: '4335'
+  last_page: '4335'
+  volume: '7'
+  issue: '75'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: diamond
+  oa_url: https://joss.theoj.org/papers/10.21105/joss.04335.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 7
+  counts_by_year:
+  - ~
+  publication_year: 2022
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4288748945
+  ids:
+  - ~
+  doi: https://doi.org/10.21105/joss.04335
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W2944104845
+  title: Characterizing the second wave of fish and invertebrate colonization of an
+    offshore petroleum platform
+  display_name: Characterizing the second wave of fish and invertebrate colonization
+    of an offshore petroleum platform
+  author:
+  - ~
+  ab: Abstract Offshore Oil and Gas (O&amp;G) infrastructure affords structurally
+    complex hard substrata in otherwise featurless areas of the seafloor. Opportunistically
+    collected industrial ROV imagery was used to investigate the colonization of a
+    petroleum platform in the North Sea 1–2 years following installation. Compared
+    to pre-construction communities and pioneering colonizers, we documented 48 additional
+    taxa, including a rare sighting of a pompano (Trachinotus ovatus). The second
+    wave of motile colonizers presented greater diversity than the pioneering community.
+    Occurrence of species became more even over the 2 years following installation,
+    with species occurring in more comparable abundances. No on-jacket sessile taxa
+    were recorded during first-wave investigations; however, 17 sessile species were
+    detected after 1 year (decreasing to 16 after 2). Motile species were found to
+    favour structurally complex sections of the jacket (e.g. mudmat), while sessile
+    organisms favoured exposed elements. Evidence of on-jacket reproduction was found
+    for two commercially important invertebrate species - common whelk (Buccinum undatum)
+    and European squid (Loligo vulgaris). Moreover, abundance of larvae-producing
+    species experience an 8.5-fold increase over a 2-year period compared to baseline
+    communities. These findings may have implications for decommissioning and resource-management
+    strategies, suggesting that a case-by-case reviewing approach should be favoured
+    over the most common “one size fits all”.
+  publication_date: '2020-12-13'
+  so: ICES Journal of Marine Science
+  so_id: https://openalex.org/S200038611
+  host_organization: Oxford University Press
+  issn_l: 1054-3139
+  url: https://doi.org/10.1093/icesjms/fsaa245
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: '1131'
+  last_page: '1145'
+  volume: '78'
+  issue: '3'
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 12
+  counts_by_year:
+  - ~
+  publication_year: 2020
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W2944104845
+  ids:
+  - ~
+  doi: https://doi.org/10.1093/icesjms/fsaa245
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4400609907
+  title: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
+  display_name: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
+  author:
+  - ~
+  ab: Abstract Background Amino acids are the building blocks of proteins and enzymes,
+    which are pivotal for life on Earth. Amino acid usage provides critical insights
+    into the functional constraints acting on proteins and illuminates molecular mechanisms
+    underpinning traits. Despite this, we have limited knowledge of the genome-wide
+    signatures of amino acid usage across domains of life, precluding new genome and
+    proteome patterns to being discovered. Results Here, we analysed the proteomes
+    of 5,590 species across four domains of life and found that only a small subset
+    of amino acids is most and least frequently used across proteomes. This creates
+    a ubiquitous ‘edge effect’ on amino acid usage diversity by rank that arises from
+    protein secondary structural constrains. This edge effect was not driven by the
+    evolutionary chronology of amino acids, showing that functional rather than evolutionary
+    constrains shape amino acid usage in the proteome. We also tested contemporary
+    hypotheses about similarities in amino acid usage profiles and the relationship
+    between amino acid usage and growth temperature, and found that, contrary to previous
+    beliefs, amino acid usage varies across domains of life and temperature only weakly
+    contributes to variance in amino acid usage. Conclusion We have described a novel
+    and ubiquitous pattern of amino acid usage signature across genomes, which reveals
+    how structural constrains shape amino acid usage at the proteome level. This can
+    ultimately influence the way in which we probe deep evolutionary relationships
+    of protein families across the tree of life and engineer biology in synthetic
+    biology.
+  publication_date: '2024-07-12'
+  so: .na.character
+  so_id: .na.character
+  host_organization: .na.character
+  issn_l: .na.character
+  url: https://doi.org/10.1101/2024.07.12.599492
+  pdf_url: .na.character
+  license: .na.character
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4400609907
+  ids:
+  - ~
+  doi: https://doi.org/10.1101/2024.07.12.599492
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W3217092927
+  title: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts, parasitopes,
+    collection localities, and seasons in northern Iran'
+  display_name: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts,
+    parasitopes, collection localities, and seasons in northern Iran'
+  author:
+  - ~
+  ab: We studied the distribution of chigger mite species over mammal hosts, attachment
+    sites on the host body, habitats, and seasons in Iran. The study was based on
+    2155 specimens of 36 chigger species collected from 10 species of Muridae, Cricetidae,
+    and Soricidae across six provinces of northern Iran. A high level of mixed infestation
+    by chiggers was recorded-76% of hosts parasitized by chiggers were infested by
+    more than one (2-8) species. Statistically significant differences in the preference
+    for anterior and posterior parts of the host body were found. Three species-Neotrombicula
+    lubrica, N. delijani, and Cheladonta firdousii-preferred the posterior part of
+    the host body; 12 species were characterized by the occurrence in the anterior
+    part and differed from one another by the frequency of presence in the posterior
+    part. One species, Hirsutiella alpina, was found only in the anterior part of
+    the host body (inside the ears of rodents). The most diverse chigger fauna was
+    on the fringe of Golestan National Park (species richness = 21, Shannon-Wiener
+    index = 2.823). The chigger fauna of the high-mountain localities on the Alborz
+    Range was the least diverse (species richness = 16, Shannon-Wiener index = 2.439).
+    The seasonal aspect of activity was evident for Neotrombicula elegans, which exposed
+    the autumn-winter period of the occurrence on hosts, and N. vernalis, with the
+    winter-spring peak of abundance.
+  publication_date: '2021-11-24'
+  so: Experimental and Applied Acarology
+  so_id: https://openalex.org/S150156781
+  host_organization: Springer Science+Business Media
+  issn_l: 0168-8162
+  url: https://doi.org/10.1007/s10493-021-00680-w
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: '21'
+  last_page: '47'
+  volume: '86'
+  issue: '1'
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 7
+  counts_by_year:
+  - ~
+  publication_year: 2021
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W3217092927
+  ids:
+  - ~
+  doi: https://doi.org/10.1007/s10493-021-00680-w
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4396939306
+  title: Ecosystem functional types of the circumpolar Arctic tundra based on the
+    seasonal dynamics of vegetation productivity
+  display_name: Ecosystem functional types of the circumpolar Arctic tundra based
+    on the seasonal dynamics of vegetation productivity
+  author:
+  - ~
+  ab: Abstract Biodiversity, when viewed through the combined lenses of compositional,
+    structural, and functional attributes, provides for a holistic understanding of
+    the complexities found within community assemblages and ecosystems. However, advancement
+    in our understanding of how ecosystem functional diversity interacts with structural
+    and compositional diversity metrics is lacking, in part because universally applied
+    methodologies to derive ecosystem functional classifications are still under development
+    and vary widely across scales, extents and biomes. This study presents a methodology
+    to construct ecosystem functional types (EFTs), or areas of the land surface that
+    function similarly, using the MODIS NDVI record, for the terrestrial circumpolar
+    Arctic. EFTs were derived from the seasonal dynamics of NDVI, over the Arctic
+    tundra at 250 m resolution and compared to bioclimate subzones and to structurally
+    and compositionally defined vegetation units of the Circumpolar Arctic Vegetation
+    Map (CAVM). Correspondence analyses of CAVM EFTs to previously delineated CAVM
+    bioclimatic subzones, physiognomic (vegetation) units and floristic provinces
+    revealed a general congruence, indicating convergence across composition, structure,
+    and function; yet also demonstrated substantial functional variability even within
+    bioclimate subzones and vegetation units. Strong latitudinal gradients in ecosystem
+    function are present, with EFT richness ranging from low (34) in northernmost
+    regions to high (45) in southernmost regions. Locally, the mountainous regions
+    of northern Alaska, and eastern and western Siberia had high spatial variability
+    in ecosystem functioning. Aside from these generalities, we found that EFTs varied
+    widely within individual mapped vegetation units, successfully capturing the functional
+    dimension of biodiversity across the circumpolar Arctic tundra.
+  publication_date: '2024-05-15'
+  so: Environmental Research Ecology
+  so_id: https://openalex.org/S4387280329
+  host_organization: IOP Publishing
+  issn_l: 2752-664X
+  url: https://doi.org/10.1088/2752-664x/ad4beb
+  pdf_url: https://iopscience.iop.org/article/10.1088/2752-664X/ad4beb/pdf
+  license: cc-by
+  version: publishedVersion
+  first_page: '025003'
+  last_page: '025003'
+  volume: '3'
+  issue: '2'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: diamond
+  oa_url: https://iopscience.iop.org/article/10.1088/2752-664X/ad4beb/pdf
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4396939306
+  ids:
+  - ~
+  doi: https://doi.org/10.1088/2752-664x/ad4beb
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4401818357
+  title: Object Recognition from Scientific Document Based on Compartment and Text
+    Blocks Refinement Framework
+  display_name: Object Recognition from Scientific Document Based on Compartment and
+    Text Blocks Refinement Framework
+  author:
+  - ~
+  ab: .na.character
+  publication_date: '2024-08-23'
+  so: SN Computer Science
+  so_id: https://openalex.org/S4210174798
+  host_organization: Springer Nature
+  issn_l: 2661-8907
+  url: https://doi.org/10.1007/s42979-024-03130-7
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: .na.character
+  last_page: .na.character
+  volume: '5'
+  issue: '7'
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4401818357
+  ids:
+  - ~
+  doi: https://doi.org/10.1007/s42979-024-03130-7
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4388916291
+  title: A Text Block Refinement Framework For Text Classification and Object Recognition
+    From Academic Articles
+  display_name: A Text Block Refinement Framework For Text Classification and Object
+    Recognition From Academic Articles
+  author:
+  - ~
+  ab: With the widespread use of the internet, it has become increasingly crucial
+    to extract specific information from vast amounts of academic articles efficiently.
+    Data mining techniques are generally employed to solve this issue. However, data
+    mining for academic articles is challenging since it requires automatically extracting
+    specific patterns in complex and unstructured layout documents. Current data mining
+    methods for academic articles employ rule-based (RB) or machine learning (ML)
+    approaches. However, using rule-based methods incurs a high coding cost for complex
+    typesetting articles. On the other hand, simply using machine learning methods
+    requires annotation work for complex content types within the paper, which can
+    be costly. Furthermore, only using machine learning can lead to cases where patterns
+    easily recognized by rule-based methods are mistakenly extracted. To overcome
+    these issues, from the perspective of analyzing the standard layout and typesetting
+    used in the specified publication, we emphasize implementing specific methods
+    for specific characteristics in academic articles. We have developed a novel Text
+    Block Refinement Framework (TBRF), a machine learning and rule-based scheme hybrid.
+    We used the well-known ACL proceeding articles as experimental data for the validation
+    experiment. The experiment shows that our approach achieved over 95% classification
+    accuracy and 90% detection accuracy for tables and figures.
+  publication_date: '2023-09-20'
+  so: .na.character
+  so_id: .na.character
+  host_organization: .na.character
+  issn_l: .na.character
+  url: https://doi.org/10.1109/inista59065.2023.10310320
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: no
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://arxiv.org/pdf/2305.17401
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4388916291
+  ids:
+  - ~
+  doi: https://doi.org/10.1109/inista59065.2023.10310320
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4362560483
+  title: Seasonal Variability of Marine Fish Diversity in Relation to Water Quality
+    of East Midnapore Coast of West Bengal, India
+  display_name: Seasonal Variability of Marine Fish Diversity in Relation to Water
+    Quality of East Midnapore Coast of West Bengal, India
+  author:
+  - ~
+  ab: Marine fishes are one of the important factors in stabilizing the local aquatic
+    ecosystem and regulating the nutritional socio-economy of local fisher folks.
+    The recent increases in anthropogenic activity, pollution and overfishing have
+    led to the decline of marine fish species richness and their local aquatic habitats.
+    In this study we sought to determine the inter-relationship between water quality,
+    anthropogenic activity, and fish landing stations through a 31 km stretch of the
+    East Midnapore coast in West Bengal, India which is known for its tourist destinations.
+    The study was conducted monthly on different trawler fish landing sites from Dec
+    2018 to Dec 2021. During this period, we took fish samples and identified them.
+    We obtained water quality data regarding Sea Surface Temperature (SST), Concentration
+    of Chlorophyll-a (Chl-a), Turbidity, and Dissolved Oxygen (DO) in order to identify
+    further correlation between the water quality analysis and species diversity.
+    154 numbers of commercially important marine fish species were documented. As
+    per the IUCN database, 13% of the total fish species fall under the red list category
+    and 16% of the species reveal a decreasing population trend. The availability
+    of those red-listed fish throughout the season has been shown in the matrix plot
+    to detect their gradual decrease in sighting. After analyzing the water quality
+    data, we found out that DO, SST, Turbidity, and Chl-a correlate with the species
+    richness on some sites and the water parameters are also differs during the seasons.
+    Both fish species richness and water quality have been affected on those fish
+    landing sites which have been subject to heavy anthropogenic loads.
+  publication_date: '2023-03-31'
+  so: Ocean Science Journal
+  so_id: https://openalex.org/S70934194
+  host_organization: Springer Science+Business Media
+  issn_l: 1738-5261
+  url: https://doi.org/10.1007/s12601-023-00107-0
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: .na.character
+  last_page: .na.character
+  volume: '58'
+  issue: '2'
+  is_oa: no
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2022/06/13/2022.06.11.495752.full.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4362560483
+  ids:
+  - ~
+  doi: https://doi.org/10.1007/s12601-023-00107-0
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W3165485472
+  title: datplot
+  display_name: datplot
+  author:
+  - ~
+  ab: This article introduces datplot, an R package designed to prepare chronological
+    data for visualization, focusing on the treatment of objects dated to overlapping
+    periods of time. Datplot is suitable for all disciplines in which scientists long
+    for a synoptic method that enables the visualization of the chronology of a collection
+    of heterogeneously dated objects. It is especially helpful for visualizing trends
+    in object assemblages over long periods of time—for example, the development of
+    pottery styles—and it can also assist in the dating of stratigraphy. As both authors
+    come from the field of classical archaeology, the examples and case study demonstrating
+    the functionality of the package analyze classical materials. In particular, we
+    focus on presenting an assemblage of epigraphic evidence from Bithynia (northwestern
+    Turkey), with a microregional focal point in the territory of Nicaea (modern Iznik).
+    In the article, we present the internal methodology of datplot and the process
+    of preparing a dataset of categorically and numerically dated objects. We demonstrate
+    visualizing the data prepared by datplot using kernel density estimation and compare
+    the outcome with more established methods such as histograms and line graphs.
+  publication_date: '2021-05-25'
+  so: Advances in Archaeological Practice
+  so_id: https://openalex.org/S2764497410
+  host_organization: Cambridge University Press
+  issn_l: 2326-3768
+  url: https://doi.org/10.1017/aap.2021.8
+  pdf_url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C1A71689C87D911C201EAE658D4AA90A/S2326376821000085a.pdf/div-class-title-datplot-div.pdf
+  license: cc-by-nc-sa
+  version: publishedVersion
+  first_page: '288'
+  last_page: '298'
+  volume: '9'
+  issue: '4'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: hybrid
+  oa_url: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C1A71689C87D911C201EAE658D4AA90A/S2326376821000085a.pdf/div-class-title-datplot-div.pdf
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 2
+  counts_by_year:
+  - ~
+  publication_year: 2021
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W3165485472
+  ids:
+  - ~
+  doi: https://doi.org/10.1017/aap.2021.8
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4295991218
+  title: 'The oases of Baja California Peninsula: overlooked hotspots for wild bees'
+  display_name: 'The oases of Baja California Peninsula: overlooked hotspots for wild
+    bees'
+  author:
+  - ~
+  ab: .na.character
+  publication_date: '2022-09-14'
+  so: Journal of Insect Conservation
+  so_id: https://openalex.org/S92632373
+  host_organization: Springer Science+Business Media
+  issn_l: 1366-638X
+  url: https://doi.org/10.1007/s10841-022-00432-0
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: '117'
+  last_page: '128'
+  volume: '27'
+  issue: '1'
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2022
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4295991218
+  ids:
+  - ~
+  doi: https://doi.org/10.1007/s10841-022-00432-0
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4317772458
+  title: Changes in the Freshwater Mussels of the Missouri Portion of the Ozark Highlands
+    Eleven Point River, 1982–1985 and 2012–2019
+  display_name: Changes in the Freshwater Mussels of the Missouri Portion of the Ozark
+    Highlands Eleven Point River, 1982–1985 and 2012–2019
+  author:
+  - ~
+  ab: Freshwater mussels are important components of aquatic systems, where they cycle
+    nutrients, stabilize streambeds, increase niche habitats, and are sources of food
+    for mammals, birds, fish, and aquatic invertebrates. The biogeographically distinct
+    Ozark Highlands is one of the oldest terrestrial regions on the planet and is
+    home to over 200 endemic species including freshwater mussels. Key to the conservation
+    and management of this mussel fauna is documenting their distribution and determining
+    if any changes have occurred. In this study, our objectives were to document the
+    diversity and distribution of the mussel fauna of the Missouri portion of the
+    Eleven Point River, a National Wild and Scenic River, and determine if any changes
+    had occurred over a 25+ yr period. During 1982–1985 and 2012–2019 we surveyed
+    29 locations, including 12 surveyed during both periods, in summer to early fall,
+    during low flow conditions with timed visual and tactile searches. We calculated
+    metrics to measure the status, composition, and abundance of the mussel community,
+    and examined the rate populations were experiencing extirpation or colonization.
+    Historically, 21 freshwater mussel species were known from Eleven Point River;
+    20 were observed live or as shell material in the present surveys. During both
+    surveys, the Eleven Point River basin was dominated by members of the Lampsilini,
+    which exhibit periodic life history strategies. We detected significant declines
+    in the number of live individuals, CPUE, and richness at the 12 resurveyed locations.
+    Freshwater mussel species in the Eleven Point River are being extirpated at a
+    significantly higher rate than colonizing areas of the Eleven Point River. Causes
+    for this decline remain unknown.
+  publication_date: '2023-01-17'
+  so: American Malacological Bulletin
+  so_id: https://openalex.org/S32133967
+  host_organization: .na.character
+  issn_l: 0740-2783
+  url: https://doi.org/10.4003/006.039.0110
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: .na.character
+  last_page: .na.character
+  volume: '39'
+  issue: '1'
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4317772458
+  ids:
+  - ~
+  doi: https://doi.org/10.4003/006.039.0110
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4323543598
+  title: 'The metazoan parasite communities of flounders as indicators of chemical
+    pollution in the southern Gulf of Mexico: taxonomic and trait-based approaches'
+  display_name: 'The metazoan parasite communities of flounders as indicators of chemical
+    pollution in the southern Gulf of Mexico: taxonomic and trait-based approaches'
+  author:
+  - ~
+  ab: 'Abstract Metazoan parasite species composition changes with an increase in
+    geographical distance, but not their functional traits. We compared the performance
+    of the taxonomy and functional traits of metazoan parasites as bioindicators of
+    chemical pollution along the continental shelf of the South Gulf of Mexico (sGOM).
+    Parasites were obtained from Syacium gunteri and Syacium papillosum , together
+    with hydrocarbons, heavy metals and physicochemical variables from water and sediments
+    during 12 oceanographic cruises. We compared regions without oil extraction: Veracruz-Tamaulipas
+    (VT) and Yucatan shelf (YS) and one with it, north-western end of YS to Coatzacoalcos,
+    Veracruz (NYV). In addition to taxonomy, the trait-based approach community-weighted
+    means (CWM) was performed. Species richness was compared between regions using
+    rarefaction curves, and the taxonomic and trait composition between regions were
+    compared using multivariate analyses. The relationships between taxonomy, traits
+    and environmental variables were tested using BIOENV. We identified 57 species
+    and body tegument, transmission, feeding mode, life stage and attachment organs
+    as informative traits. By rarefaction, VT and YS had higher species richness than
+    NYV for both hosts, but there were questionable values due to the small fish sample
+    size. Except for YS, significant parasite community variability was detected by
+    PERMANOVA using taxonomy and CWM for all regions, hosts and interactions. The
+    same group of larval species was detected by SIMPER for regions and hosts, suggesting
+    low functional turnover. BIOENV showed that polyaromatic hydrocarbons explained
+    most of the variability. Taxonomy and functional traits produced similar explained
+    variance, but the latter saved time analysis and financial resources.'
+  publication_date: '2023-03-08'
+  so: Research Square (Research Square)
+  so_id: https://openalex.org/S4306402450
+  host_organization: Research Square (United States)
+  issn_l: .na.character
+  url: https://doi.org/10.21203/rs.3.rs-2610304/v1
+  pdf_url: https://www.researchsquare.com/article/rs-2610304/latest.pdf
+  license: cc-by
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://www.researchsquare.com/article/rs-2610304/latest.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4323543598
+  ids:
+  - ~
+  doi: https://doi.org/10.21203/rs.3.rs-2610304/v1
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4360616814
+  title: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years and
+    Relationships with Species Traits
+  display_name: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years
+    and Relationships with Species Traits
+  author:
+  - ~
+  ab: We conducted a mussel survey of the Jacks Fork, Missouri, an Outstanding National
+    Resource Water, to document mussel diversity and distribution in the watershed,
+    to determine if changes had occurred since a previous survey in 1982, and to relate
+    observed changes to species traits. We surveyed mussels with timed tactile or
+    visual searches at 28 sites during summer from 2017 to 2019 and compared our results
+    with the 1982 survey. Catch per unit effort, number of live individuals, species
+    richness, and diversity were significantly lower in 2017–19 than in 1982. The
+    proportion of extirpation at the 11 resurveyed sites averaged 0.85 (range 0.50–1.00)
+    among species, and the proportion of colonization was 0.0 for all species. There
+    were no differences in the relative abundance of tribes, life-history strategies,
+    or species of conservation concern between the two surveys, suggesting that the
+    decline has occurred evenly across species, tribes, and life-history strategies.
+    Ten species are possibly extirpated from the basin. Causes of the mussel decline
+    in the Jacks Fork basin are unknown.
+  publication_date: '2023-03-23'
+  so: Freshwater Mollusk Biology and Conservation
+  so_id: https://openalex.org/S4210177210
+  host_organization: .na.character
+  issn_l: 2472-2944
+  url: https://doi.org/10.31931/fmbc-d-21-00012
+  pdf_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
+  license: .na.character
+  version: publishedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: '26'
+  issue: '1'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4360616814
+  ids:
+  - ~
+  doi: https://doi.org/10.31931/fmbc-d-21-00012
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4378770596
+  title: A Framework For Refining Text Classification and Object Recognition from
+    Academic Articles
+  display_name: A Framework For Refining Text Classification and Object Recognition
+    from Academic Articles
+  author:
+  - ~
+  ab: With the widespread use of the internet, it has become increasingly crucial
+    to extract specific information from vast amounts of academic articles efficiently.
+    Data mining techniques are generally employed to solve this issue. However, data
+    mining for academic articles is challenging since it requires automatically extracting
+    specific patterns in complex and unstructured layout documents. Current data mining
+    methods for academic articles employ rule-based(RB) or machine learning(ML) approaches.
+    However, using rule-based methods incurs a high coding cost for complex typesetting
+    articles. On the other hand, simply using machine learning methods requires annotation
+    work for complex content types within the paper, which can be costly. Furthermore,
+    only using machine learning can lead to cases where patterns easily recognized
+    by rule-based methods are mistakenly extracted. To overcome these issues, from
+    the perspective of analyzing the standard layout and typesetting used in the specified
+    publication, we emphasize implementing specific methods for specific characteristics
+    in academic articles. We have developed a novel Text Block Refinement Framework
+    (TBRF), a machine learning and rule-based scheme hybrid. We used the well-known
+    ACL proceeding articles as experimental data for the validation experiment. The
+    experiment shows that our approach achieved over 95% classification accuracy and
+    90% detection accuracy for tables and figures.
+  publication_date: '2023-01-01'
+  so: arXiv (Cornell University)
+  so_id: https://openalex.org/S4306400194
+  host_organization: Cornell University
+  issn_l: .na.character
+  url: https://arxiv.org/abs/2305.17401
+  pdf_url: .na.character
+  license: other-oa
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://arxiv.org/abs/2305.17401
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4378770596
+  ids:
+  - ~
+  doi: https://doi.org/10.48550/arxiv.2305.17401
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+
