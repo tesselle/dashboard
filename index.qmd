@@ -1,8 +1,22 @@
 ---
 title: "dashboard.tesselle"
-format: dashboard
+format: 
+  dashboard:
+    nav-buttons:
+      - icon: house
+        text: Homepage
+        href: "https://www.tesselle.org"
 default-image-extension: ""
+include-in-header: _header.html
 ---
+
+# {.sidebar}
+
+![](images/tesselle.png){fig-alt="Logo of the tesselle project."}
+
+**tesselle** is a collection of [R](https://www.r-project.org/) packages for research and teaching in archaeology. These packages focus on quantitative analysis methods developed for archaeology. The tesselle packages are designed to work seamlessly together and to complement general-purpose and other specialized statistical packages.
+    
+Last update: `r Sys.Date()`.
 
 ```{r}
 #| label: setup
@@ -41,6 +55,48 @@ col_pkg <- c(aion     = "#882E72", alkahest = "#1965B0", arkhe      = "#5289C7",
 ```
 
 # Summary
+
+## Row
+
+```{r}
+#| content: valuebox
+#| title: "CRAN Packages"
+list(
+  icon = "box-seam",
+  color = "secondary",
+  value = sum(!is.na(metadata$version))
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Open Issues"
+list(
+  icon = "patch-exclamation",
+  color = "secondary",
+  value = sum(metadata$open_issues)
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "GitHub Stars"
+list(
+  icon = "star",
+  color = "secondary",
+  value = sum(metadata$stargazers_count)
+)
+```
+
+```{r}
+#| content: valuebox
+#| title: "Citations"
+list(
+  icon = "pen",
+  color = "secondary",
+  value = sum(vapply(X = citations, FUN = nrow, FUN.VALUE = integer(1)))
+)
+```
 
 ## Row
 
@@ -114,16 +170,13 @@ resume |>
 #| title: "Cumulative Downloads"
 #| fig-width: 7
 #| fig-height: 7
-cap1 <- "Source: RStudio CRAN mirror (adjusted)."
-cap2 <- sprintf("Last update: %s.", Sys.Date())
-
 downloads |>
   ggplot2::ggplot() +
   ggplot2::aes(x = month, y = total_downloads, colour = package) +
   ggplot2::geom_point() +
   ggplot2::geom_line() +
   ggplot2::scale_y_continuous(name = "Cumulative downloads", limits = c(0, NA)) +
-  ggplot2::labs(caption = paste(cap1, cap2, sep = "\n")) +
+  ggplot2::labs(caption = "Source: RStudio CRAN mirror (adjusted).") +
   ggplot2::theme_bw() +
   ggplot2::theme(
     legend.position = "bottom",
@@ -181,9 +234,6 @@ downloads <- downloads |>
     }
   )
 
-cap1 <- "Source: RStudio CRAN mirror (adjusted; 3 months sliding-average)."
-cap2 <- sprintf("Last update: %s.", Sys.Date())
-
 for (i in seq_along(downloads)) {
   gg_core <- ggplot2::ggplot(data = downloads[[i]]) +
     ggplot2::aes(x = month, y = smoothed) +
@@ -191,7 +241,7 @@ for (i in seq_along(downloads)) {
     ggplot2::geom_line() +
     ggplot2::scale_y_log10(name = "Downloads per month", limits = c(NA, NA)) +
     # ggplot2::scale_y_continuous(name = "Downloads per month", limits = c(0, NA)) +
-    ggplot2::labs(caption = paste(cap1, cap2, sep = "\n")) +
+    ggplot2::labs(caption = "Source: RStudio CRAN mirror (adjusted; 3 months sliding-average).") +
     ggplot2::theme_bw() +
     ggplot2::theme(
       axis.text.x = ggplot2::element_text(angle = 45, hjust = 1, vjust = 1),
