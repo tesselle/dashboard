@@ -13,6 +13,7 @@ if (!file.exists(data_daily)) {
   from <- as.Date("2018-10-18")
 } else {
   downloads_daily <- read.csv(data_daily)
+  downloads_daily$date <- as.Date(downloads_daily$date)
   from <- as.Date(max(downloads_daily$date)) + 1
 }
 

@@ -86,7 +86,7 @@ resume |>
     missing_text = "---"
   ) |> 
   gt::tab_spanner(
-    label = "Release",
+    label = "Latest Release",
     columns = c("version", "date")
   ) |> 
   gt::tab_spanner(
@@ -147,10 +147,6 @@ for (i in seq_along(issues)) {
     gt::fmt_markdown(columns = c("title", "labels")) |> 
     gt::sub_missing(
       missing_text = "---"
-    ) |> 
-    gt::tab_style(
-      style = gt::cell_text(weight = "bold"),
-      locations = gt::cells_row_groups()
     ) |> 
     gt::cols_label(
       title = "Title",

@@ -95,7 +95,7 @@ gh_summary <- function(x, what = c("number", "title",
   x <- do.call(rbind, x)
 
   x$repository_url <- gh_clean_url(x$repository_url)
-  x$repository <- sub("https://github.com/", "", x$repository_url)
+  x$repository <- sub("https://github.com/tesselle/", "", x$repository_url)
   x$created_at <- as.Date(x$created_at)
   x$updated_at <- as.Date(x$updated_at)
   x$title <- sprintf("<a href='%s'>%s</a> #%d", x$html_url, x$title, x$number)
