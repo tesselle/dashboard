@@ -35,6 +35,8 @@ downloads <- read.csv(file.path("data", "downloads_monthly.csv"))
 downloads$package <- as.factor(downloads$package)
 downloads$month <- as.Date(downloads$month)
 
+dependencies <- read.csv(file.path("data", "dependencies.csv"), row.names = 1)
+
 citations <- yaml::read_yaml(file.path("data", "citations.yml"))
 citations <- oa_summary(citations)
 
@@ -100,6 +102,8 @@ list(
 
 ## Row
 
+### Column
+
 ```{r}
 #| label: cran-info
 #| title: "CRAN Info"
@@ -162,6 +166,38 @@ resume |>
     ihtml.active = TRUE,
     ihtml.use_pagination = FALSE,
     ihtml.use_sorting = TRUE
+  )
+```
+
+### Column
+
+```{r}
+#| label: dependency-network
+#| title: "Dependency Network"
+#| fig-width: 7
+#| fig-height: 7
+dependencies |>
+  as.matrix() |> 
+  igraph::graph_from_adjacency_matrix(mode = "directed") |> 
+  tidygraph::as_tbl_graph() |> 
+  ggraph::ggraph(layout = "fr") + 
+  ggraph::geom_edge_link(
+    color = "black",
+    arrow = grid::arrow(length = grid::unit(3, "mm")),
+    end_cap = ggraph::circle(6, "mm")
+  ) +
+  ggraph::geom_node_point(
+    mapping = ggplot2::aes(color = name %in% tesselle()),
+    size = 15
+  ) + 
+  ggraph::geom_node_label(
+    mapping = ggplot2::aes(label = name, color = name %in% tesselle()),
+    repel = TRUE
+  ) +
+  ggplot2::theme_void() +
+  ggplot2::theme(legend.position = "none") +
+  ggplot2::scale_color_manual(
+    values = c(`TRUE` = "#004488", `FALSE` = "darkgrey")
   )
 ```
 
