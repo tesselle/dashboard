@@ -1,4 +1,11 @@
 ## Helpers =====
+tesselle <- function(meta = TRUE, ...) {
+  pkg <- c("aion", "arkhe", "alkahest", "dimensio", "folio",
+           "isopleuros", "kairos", "khroma", "nexus", "tabula", "tesselle")
+  if (isFALSE(meta)) pkg <- pkg[pkg != "tesselle"]
+  return(pkg)
+}
+
 fail <- function(x) {
   is.null(x) || inherits(x, "try-error")
 }

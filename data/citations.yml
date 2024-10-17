@@ -295,7 +295,7 @@ khroma:
   language: en
   grants:
   - ~
-  cited_by_count: 2
+  cited_by_count: 3
   counts_by_year:
   - ~
   publication_year: 2022
@@ -393,7 +393,7 @@ tabula:
     in mammals
   author:
   - ~
-  ab: Complexity, defined as the number of parts and their degree of differentiation,
+  ab: Abstract Complexity, defined as the number of parts and their degree of differentiation,
     is a poorly explored aspect of macroevolutionary dynamics. The maximum anatomical
     complexity of organisms has undoubtedly increased through evolutionary time. However,
     it is unclear whether this increase is a purely diffusive process or whether it
@@ -552,6 +552,72 @@ tabula:
   - ~
   topics:
   - ~
+- id: https://openalex.org/W2944104845
+  title: Characterizing the second wave of fish and invertebrate colonization of an
+    offshore petroleum platform
+  display_name: Characterizing the second wave of fish and invertebrate colonization
+    of an offshore petroleum platform
+  author:
+  - ~
+  ab: Abstract Offshore Oil and Gas (O&amp;G) infrastructure affords structurally
+    complex hard substrata in otherwise featurless areas of the seafloor. Opportunistically
+    collected industrial ROV imagery was used to investigate the colonization of a
+    petroleum platform in the North Sea 1–2 years following installation. Compared
+    to pre-construction communities and pioneering colonizers, we documented 48 additional
+    taxa, including a rare sighting of a pompano (Trachinotus ovatus). The second
+    wave of motile colonizers presented greater diversity than the pioneering community.
+    Occurrence of species became more even over the 2 years following installation,
+    with species occurring in more comparable abundances. No on-jacket sessile taxa
+    were recorded during first-wave investigations; however, 17 sessile species were
+    detected after 1 year (decreasing to 16 after 2). Motile species were found to
+    favour structurally complex sections of the jacket (e.g. mudmat), while sessile
+    organisms favoured exposed elements. Evidence of on-jacket reproduction was found
+    for two commercially important invertebrate species - common whelk (Buccinum undatum)
+    and European squid (Loligo vulgaris). Moreover, abundance of larvae-producing
+    species experience an 8.5-fold increase over a 2-year period compared to baseline
+    communities. These findings may have implications for decommissioning and resource-management
+    strategies, suggesting that a case-by-case reviewing approach should be favoured
+    over the most common “one size fits all”.
+  publication_date: '2020-12-13'
+  so: ICES Journal of Marine Science
+  so_id: https://openalex.org/S200038611
+  host_organization: Oxford University Press
+  issn_l: 1054-3139
+  url: https://doi.org/10.1093/icesjms/fsaa245
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: '1131'
+  last_page: '1145'
+  volume: '78'
+  issue: '3'
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 13
+  counts_by_year:
+  - ~
+  publication_year: 2020
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W2944104845
+  ids:
+  - ~
+  doi: https://doi.org/10.1093/icesjms/fsaa245
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W4288748945
   title: 'Archeofrag: an R package for Refitting and Spatial Analysis in Archaeology'
   display_name: 'Archeofrag: an R package for Refitting and Spatial Analysis in Archaeology'
@@ -600,207 +666,6 @@ tabula:
   ids:
   - ~
   doi: https://doi.org/10.21105/joss.04335
-  type: article
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
-- id: https://openalex.org/W2944104845
-  title: Characterizing the second wave of fish and invertebrate colonization of an
-    offshore petroleum platform
-  display_name: Characterizing the second wave of fish and invertebrate colonization
-    of an offshore petroleum platform
-  author:
-  - ~
-  ab: Abstract Offshore Oil and Gas (O&amp;G) infrastructure affords structurally
-    complex hard substrata in otherwise featurless areas of the seafloor. Opportunistically
-    collected industrial ROV imagery was used to investigate the colonization of a
-    petroleum platform in the North Sea 1–2 years following installation. Compared
-    to pre-construction communities and pioneering colonizers, we documented 48 additional
-    taxa, including a rare sighting of a pompano (Trachinotus ovatus). The second
-    wave of motile colonizers presented greater diversity than the pioneering community.
-    Occurrence of species became more even over the 2 years following installation,
-    with species occurring in more comparable abundances. No on-jacket sessile taxa
-    were recorded during first-wave investigations; however, 17 sessile species were
-    detected after 1 year (decreasing to 16 after 2). Motile species were found to
-    favour structurally complex sections of the jacket (e.g. mudmat), while sessile
-    organisms favoured exposed elements. Evidence of on-jacket reproduction was found
-    for two commercially important invertebrate species - common whelk (Buccinum undatum)
-    and European squid (Loligo vulgaris). Moreover, abundance of larvae-producing
-    species experience an 8.5-fold increase over a 2-year period compared to baseline
-    communities. These findings may have implications for decommissioning and resource-management
-    strategies, suggesting that a case-by-case reviewing approach should be favoured
-    over the most common “one size fits all”.
-  publication_date: '2020-12-13'
-  so: ICES Journal of Marine Science
-  so_id: https://openalex.org/S200038611
-  host_organization: Oxford University Press
-  issn_l: 1054-3139
-  url: https://doi.org/10.1093/icesjms/fsaa245
-  pdf_url: .na.character
-  license: .na.character
-  version: .na.character
-  first_page: '1131'
-  last_page: '1145'
-  volume: '78'
-  issue: '3'
-  is_oa: no
-  is_oa_anywhere: no
-  oa_status: closed
-  oa_url: .na.character
-  any_repository_has_fulltext: no
-  language: en
-  grants:
-  - ~
-  cited_by_count: 12
-  counts_by_year:
-  - ~
-  publication_year: 2020
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W2944104845
-  ids:
-  - ~
-  doi: https://doi.org/10.1093/icesjms/fsaa245
-  type: article
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
-- id: https://openalex.org/W4400609907
-  title: Differential amino acid usage leads to ubiquitous edge effect in proteomes
-    across domains of life that can be explained by amino acid secondary structure
-    propensities
-  display_name: Differential amino acid usage leads to ubiquitous edge effect in proteomes
-    across domains of life that can be explained by amino acid secondary structure
-    propensities
-  author:
-  - ~
-  ab: Abstract Background Amino acids are the building blocks of proteins and enzymes,
-    which are pivotal for life on Earth. Amino acid usage provides critical insights
-    into the functional constraints acting on proteins and illuminates molecular mechanisms
-    underpinning traits. Despite this, we have limited knowledge of the genome-wide
-    signatures of amino acid usage across domains of life, precluding new genome and
-    proteome patterns to being discovered. Results Here, we analysed the proteomes
-    of 5,590 species across four domains of life and found that only a small subset
-    of amino acids is most and least frequently used across proteomes. This creates
-    a ubiquitous ‘edge effect’ on amino acid usage diversity by rank that arises from
-    protein secondary structural constrains. This edge effect was not driven by the
-    evolutionary chronology of amino acids, showing that functional rather than evolutionary
-    constrains shape amino acid usage in the proteome. We also tested contemporary
-    hypotheses about similarities in amino acid usage profiles and the relationship
-    between amino acid usage and growth temperature, and found that, contrary to previous
-    beliefs, amino acid usage varies across domains of life and temperature only weakly
-    contributes to variance in amino acid usage. Conclusion We have described a novel
-    and ubiquitous pattern of amino acid usage signature across genomes, which reveals
-    how structural constrains shape amino acid usage at the proteome level. This can
-    ultimately influence the way in which we probe deep evolutionary relationships
-    of protein families across the tree of life and engineer biology in synthetic
-    biology.
-  publication_date: '2024-07-12'
-  so: .na.character
-  so_id: .na.character
-  host_organization: .na.character
-  issn_l: .na.character
-  url: https://doi.org/10.1101/2024.07.12.599492
-  pdf_url: .na.character
-  license: .na.character
-  version: submittedVersion
-  first_page: .na.character
-  last_page: .na.character
-  volume: .na.character
-  issue: .na.character
-  is_oa: no
-  is_oa_anywhere: no
-  oa_status: closed
-  oa_url: .na.character
-  any_repository_has_fulltext: no
-  language: en
-  grants:
-  - ~
-  cited_by_count: 0
-  counts_by_year:
-  - ~
-  publication_year: 2024
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4400609907
-  ids:
-  - ~
-  doi: https://doi.org/10.1101/2024.07.12.599492
-  type: preprint
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
-- id: https://openalex.org/W3217092927
-  title: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts, parasitopes,
-    collection localities, and seasons in northern Iran'
-  display_name: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts,
-    parasitopes, collection localities, and seasons in northern Iran'
-  author:
-  - ~
-  ab: We studied the distribution of chigger mite species over mammal hosts, attachment
-    sites on the host body, habitats, and seasons in Iran. The study was based on
-    2155 specimens of 36 chigger species collected from 10 species of Muridae, Cricetidae,
-    and Soricidae across six provinces of northern Iran. A high level of mixed infestation
-    by chiggers was recorded-76% of hosts parasitized by chiggers were infested by
-    more than one (2-8) species. Statistically significant differences in the preference
-    for anterior and posterior parts of the host body were found. Three species-Neotrombicula
-    lubrica, N. delijani, and Cheladonta firdousii-preferred the posterior part of
-    the host body; 12 species were characterized by the occurrence in the anterior
-    part and differed from one another by the frequency of presence in the posterior
-    part. One species, Hirsutiella alpina, was found only in the anterior part of
-    the host body (inside the ears of rodents). The most diverse chigger fauna was
-    on the fringe of Golestan National Park (species richness = 21, Shannon-Wiener
-    index = 2.823). The chigger fauna of the high-mountain localities on the Alborz
-    Range was the least diverse (species richness = 16, Shannon-Wiener index = 2.439).
-    The seasonal aspect of activity was evident for Neotrombicula elegans, which exposed
-    the autumn-winter period of the occurrence on hosts, and N. vernalis, with the
-    winter-spring peak of abundance.
-  publication_date: '2021-11-24'
-  so: Experimental and Applied Acarology
-  so_id: https://openalex.org/S150156781
-  host_organization: Springer Science+Business Media
-  issn_l: 0168-8162
-  url: https://doi.org/10.1007/s10493-021-00680-w
-  pdf_url: .na.character
-  license: .na.character
-  version: .na.character
-  first_page: '21'
-  last_page: '47'
-  volume: '86'
-  issue: '1'
-  is_oa: no
-  is_oa_anywhere: no
-  oa_status: closed
-  oa_url: .na.character
-  any_repository_has_fulltext: no
-  language: en
-  grants:
-  - ~
-  cited_by_count: 7
-  counts_by_year:
-  - ~
-  publication_year: 2021
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W3217092927
-  ids:
-  - ~
-  doi: https://doi.org/10.1007/s10493-021-00680-w
   type: article
   referenced_works:
   - ~
@@ -882,6 +747,76 @@ tabula:
   - ~
   topics:
   - ~
+- id: https://openalex.org/W4400609907
+  title: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
+  display_name: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
+  author:
+  - ~
+  ab: Abstract Background Amino acids are the building blocks of proteins and enzymes,
+    which are pivotal for life on Earth. Amino acid usage provides critical insights
+    into the functional constraints acting on proteins and illuminates molecular mechanisms
+    underpinning traits. Despite this, we have limited knowledge of the genome-wide
+    signatures of amino acid usage across domains of life, precluding new genome and
+    proteome patterns to being discovered. Results Here, we analysed the proteomes
+    of 5,590 species across four domains of life and found that only a small subset
+    of amino acids is most and least frequently used across proteomes. This creates
+    a ubiquitous ‘edge effect’ on amino acid usage diversity by rank that arises from
+    protein secondary structural constrains. This edge effect was not driven by the
+    evolutionary chronology of amino acids, showing that functional rather than evolutionary
+    constrains shape amino acid usage in the proteome. We also tested contemporary
+    hypotheses about similarities in amino acid usage profiles and the relationship
+    between amino acid usage and growth temperature, and found that, contrary to previous
+    beliefs, amino acid usage varies across domains of life and temperature only weakly
+    contributes to variance in amino acid usage. Conclusion We have described a novel
+    and ubiquitous pattern of amino acid usage signature across genomes, which reveals
+    how structural constrains shape amino acid usage at the proteome level. This can
+    ultimately influence the way in which we probe deep evolutionary relationships
+    of protein families across the tree of life and engineer biology in synthetic
+    biology.
+  publication_date: '2024-07-12'
+  so: .na.character
+  so_id: .na.character
+  host_organization: .na.character
+  issn_l: .na.character
+  url: https://doi.org/10.1101/2024.07.12.599492
+  pdf_url: .na.character
+  license: .na.character
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4400609907
+  ids:
+  - ~
+  doi: https://doi.org/10.1101/2024.07.12.599492
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W4401818357
   title: Object Recognition from Scientific Document Based on Compartment and Text
     Blocks Refinement Framework
@@ -930,60 +865,60 @@ tabula:
   - ~
   topics:
   - ~
-- id: https://openalex.org/W4388916291
-  title: A Text Block Refinement Framework For Text Classification and Object Recognition
-    From Academic Articles
-  display_name: A Text Block Refinement Framework For Text Classification and Object
-    Recognition From Academic Articles
+- id: https://openalex.org/W3217092927
+  title: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts, parasitopes,
+    collection localities, and seasons in northern Iran'
+  display_name: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts,
+    parasitopes, collection localities, and seasons in northern Iran'
   author:
   - ~
-  ab: With the widespread use of the internet, it has become increasingly crucial
-    to extract specific information from vast amounts of academic articles efficiently.
-    Data mining techniques are generally employed to solve this issue. However, data
-    mining for academic articles is challenging since it requires automatically extracting
-    specific patterns in complex and unstructured layout documents. Current data mining
-    methods for academic articles employ rule-based (RB) or machine learning (ML)
-    approaches. However, using rule-based methods incurs a high coding cost for complex
-    typesetting articles. On the other hand, simply using machine learning methods
-    requires annotation work for complex content types within the paper, which can
-    be costly. Furthermore, only using machine learning can lead to cases where patterns
-    easily recognized by rule-based methods are mistakenly extracted. To overcome
-    these issues, from the perspective of analyzing the standard layout and typesetting
-    used in the specified publication, we emphasize implementing specific methods
-    for specific characteristics in academic articles. We have developed a novel Text
-    Block Refinement Framework (TBRF), a machine learning and rule-based scheme hybrid.
-    We used the well-known ACL proceeding articles as experimental data for the validation
-    experiment. The experiment shows that our approach achieved over 95% classification
-    accuracy and 90% detection accuracy for tables and figures.
-  publication_date: '2023-09-20'
-  so: .na.character
-  so_id: .na.character
-  host_organization: .na.character
-  issn_l: .na.character
-  url: https://doi.org/10.1109/inista59065.2023.10310320
+  ab: We studied the distribution of chigger mite species over mammal hosts, attachment
+    sites on the host body, habitats, and seasons in Iran. The study was based on
+    2155 specimens of 36 chigger species collected from 10 species of Muridae, Cricetidae,
+    and Soricidae across six provinces of northern Iran. A high level of mixed infestation
+    by chiggers was recorded-76% of hosts parasitized by chiggers were infested by
+    more than one (2-8) species. Statistically significant differences in the preference
+    for anterior and posterior parts of the host body were found. Three species-Neotrombicula
+    lubrica, N. delijani, and Cheladonta firdousii-preferred the posterior part of
+    the host body; 12 species were characterized by the occurrence in the anterior
+    part and differed from one another by the frequency of presence in the posterior
+    part. One species, Hirsutiella alpina, was found only in the anterior part of
+    the host body (inside the ears of rodents). The most diverse chigger fauna was
+    on the fringe of Golestan National Park (species richness = 21, Shannon-Wiener
+    index = 2.823). The chigger fauna of the high-mountain localities on the Alborz
+    Range was the least diverse (species richness = 16, Shannon-Wiener index = 2.439).
+    The seasonal aspect of activity was evident for Neotrombicula elegans, which exposed
+    the autumn-winter period of the occurrence on hosts, and N. vernalis, with the
+    winter-spring peak of abundance.
+  publication_date: '2021-11-24'
+  so: Experimental and Applied Acarology
+  so_id: https://openalex.org/S150156781
+  host_organization: Springer Science+Business Media
+  issn_l: 0168-8162
+  url: https://doi.org/10.1007/s10493-021-00680-w
   pdf_url: .na.character
   license: .na.character
   version: .na.character
-  first_page: .na.character
-  last_page: .na.character
-  volume: .na.character
-  issue: .na.character
+  first_page: '21'
+  last_page: '47'
+  volume: '86'
+  issue: '1'
   is_oa: no
-  is_oa_anywhere: yes
-  oa_status: green
-  oa_url: https://arxiv.org/pdf/2305.17401
-  any_repository_has_fulltext: yes
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
   language: en
   grants:
   - ~
-  cited_by_count: 1
+  cited_by_count: 7
   counts_by_year:
   - ~
-  publication_year: 2023
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4388916291
+  publication_year: 2021
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W3217092927
   ids:
   - ~
-  doi: https://doi.org/10.1109/inista59065.2023.10310320
+  doi: https://doi.org/10.1007/s10493-021-00680-w
   type: article
   referenced_works:
   - ~
@@ -1063,6 +998,118 @@ tabula:
   - ~
   topics:
   - ~
+- id: https://openalex.org/W4388916291
+  title: A Text Block Refinement Framework For Text Classification and Object Recognition
+    From Academic Articles
+  display_name: A Text Block Refinement Framework For Text Classification and Object
+    Recognition From Academic Articles
+  author:
+  - ~
+  ab: With the widespread use of the internet, it has become increasingly crucial
+    to extract specific information from vast amounts of academic articles efficiently.
+    Data mining techniques are generally employed to solve this issue. However, data
+    mining for academic articles is challenging since it requires automatically extracting
+    specific patterns in complex and unstructured layout documents. Current data mining
+    methods for academic articles employ rule-based (RB) or machine learning (ML)
+    approaches. However, using rule-based methods incurs a high coding cost for complex
+    typesetting articles. On the other hand, simply using machine learning methods
+    requires annotation work for complex content types within the paper, which can
+    be costly. Furthermore, only using machine learning can lead to cases where patterns
+    easily recognized by rule-based methods are mistakenly extracted. To overcome
+    these issues, from the perspective of analyzing the standard layout and typesetting
+    used in the specified publication, we emphasize implementing specific methods
+    for specific characteristics in academic articles. We have developed a novel Text
+    Block Refinement Framework (TBRF), a machine learning and rule-based scheme hybrid.
+    We used the well-known ACL proceeding articles as experimental data for the validation
+    experiment. The experiment shows that our approach achieved over 95% classification
+    accuracy and 90% detection accuracy for tables and figures.
+  publication_date: '2023-09-20'
+  so: .na.character
+  so_id: .na.character
+  host_organization: .na.character
+  issn_l: .na.character
+  url: https://doi.org/10.1109/inista59065.2023.10310320
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: no
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://arxiv.org/pdf/2305.17401
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4388916291
+  ids:
+  - ~
+  doi: https://doi.org/10.1109/inista59065.2023.10310320
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4295991218
+  title: 'The oases of Baja California Peninsula: overlooked hotspots for wild bees'
+  display_name: 'The oases of Baja California Peninsula: overlooked hotspots for wild
+    bees'
+  author:
+  - ~
+  ab: .na.character
+  publication_date: '2022-09-14'
+  so: Journal of Insect Conservation
+  so_id: https://openalex.org/S92632373
+  host_organization: Springer Science+Business Media
+  issn_l: 1366-638X
+  url: https://doi.org/10.1007/s10841-022-00432-0
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: '117'
+  last_page: '128'
+  volume: '27'
+  issue: '1'
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 2
+  counts_by_year:
+  - ~
+  publication_year: 2022
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4295991218
+  ids:
+  - ~
+  doi: https://doi.org/10.1007/s10841-022-00432-0
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W3165485472
   title: datplot
   display_name: datplot
@@ -1112,53 +1159,6 @@ tabula:
   ids:
   - ~
   doi: https://doi.org/10.1017/aap.2021.8
-  type: article
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
-- id: https://openalex.org/W4295991218
-  title: 'The oases of Baja California Peninsula: overlooked hotspots for wild bees'
-  display_name: 'The oases of Baja California Peninsula: overlooked hotspots for wild
-    bees'
-  author:
-  - ~
-  ab: .na.character
-  publication_date: '2022-09-14'
-  so: Journal of Insect Conservation
-  so_id: https://openalex.org/S92632373
-  host_organization: Springer Science+Business Media
-  issn_l: 1366-638X
-  url: https://doi.org/10.1007/s10841-022-00432-0
-  pdf_url: .na.character
-  license: .na.character
-  version: .na.character
-  first_page: '117'
-  last_page: '128'
-  volume: '27'
-  issue: '1'
-  is_oa: no
-  is_oa_anywhere: no
-  oa_status: closed
-  oa_url: .na.character
-  any_repository_has_fulltext: no
-  language: en
-  grants:
-  - ~
-  cited_by_count: 1
-  counts_by_year:
-  - ~
-  publication_year: 2022
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4295991218
-  ids:
-  - ~
-  doi: https://doi.org/10.1007/s10841-022-00432-0
   type: article
   referenced_works:
   - ~

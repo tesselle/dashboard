@@ -1,7 +1,5 @@
-## Get RStudio CRAN mirror data
-## Set CRAN package list
-tesselle <- c("aion", "arkhe", "alkahest", "dimensio", "folio",
-              "isopleuros", "kairos", "khroma", "nexus", "tabula", "tesselle")
+## Helpers
+source("utilities.R")
 
 ## Get RStudio CRAN mirror data
 if (!dir.exists("data")) dir.create("data")
@@ -19,7 +17,7 @@ if (!file.exists(data_daily)) {
 
 if (Sys.Date() - from >= 0) {
   last <- try(adjustedcranlogs::adj_cran_downloads(
-    packages = tesselle,
+    packages = tesselle(),
     from = as.character(from),
     to = "last-day"
   ))
