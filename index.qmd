@@ -35,6 +35,11 @@ downloads <- read.csv(file.path("data", "downloads_monthly.csv"))
 downloads$package <- as.factor(downloads$package)
 downloads$month <- as.Date(downloads$month)
 
+releases <- read.csv(file.path("data", "downloads_daily.csv"))
+releases <- subset(releases, updateday)
+releases$package <- as.factor(releases$package)
+releases$date <- as.Date(releases$date)
+
 dependencies <- read.csv(file.path("data", "dependencies.csv"), row.names = 1)
 
 citations <- yaml::read_yaml(file.path("data", "citations.yml"))
@@ -270,13 +275,25 @@ downloads <- downloads |>
     }
   )
 
+releases <- releases |> 
+  split(f = releases$package)
+
 for (i in seq_along(downloads)) {
-  gg_core <- ggplot2::ggplot(data = downloads[[i]]) +
-    ggplot2::aes(x = month, y = smoothed) +
-    # ggplot2::geom_point() +
-    ggplot2::geom_line() +
-    ggplot2::scale_y_log10(name = "Downloads per month", limits = c(NA, NA)) +
-    # ggplot2::scale_y_continuous(name = "Downloads per month", limits = c(0, NA)) +
+  i_downloads <- downloads[[i]]
+  i_releases <- releases[[i]]
+  
+  gg_core <- ggplot2::ggplot() +
+    ggplot2::geom_vline(
+      mapping = ggplot2::aes(xintercept = date), 
+      data = i_releases,
+      color = "#FFD402"
+    ) +
+    ggplot2::geom_line(
+      mapping = ggplot2::aes(x = month, y = smoothed),
+      data = i_downloads
+    ) +
+    # ggplot2::scale_y_log10(name = "Downloads per month", limits = c(NA, NA)) +
+    ggplot2::scale_y_continuous(name = "Downloads per month", limits = c(0, NA)) +
     ggplot2::labs(caption = "Source: RStudio CRAN mirror (adjusted; 3 months sliding-average).") +
     ggplot2::theme_bw() +
     ggplot2::theme(
