@@ -1,3 +1,255 @@
+alkahest:
+- id: https://openalex.org/W4400429355
+  title: Comparing Raman and NanoSIMS for heavy water labeling of single cells
+  display_name: Comparing Raman and NanoSIMS for heavy water labeling of single cells
+  author:
+  - ~
+  ab: Abstract Stable isotope probing (SIP) experiments in conjunction with Raman
+    microspectroscopy (Raman) or nano-scale secondary ion mass spectrometry (NanoSIMS)
+    are frequently used to explore single cell resolved metabolic activity in pure
+    cultures as well as complex microbiomes. Despite the increasing popularity of
+    these techniques, no study has yet compared results from isotope incorporation
+    measurements using both Raman and NanoSIMS directly on the same cell. This knowledge
+    gap creates uncertainty about the comparability of single cell SIP data generated
+    independently using these techniques. In this study, we conducted a comparative
+    analysis of 543 Escherichia coli cells grown in M9 minimal medium in the absence
+    or presence of heavy water ( 2 H 2 O) at single cell resolution using correlative
+    Raman and NanoSIMS measurements. For the first time, we were able to establish
+    the extent of data equivalence, allowing for comparisons between the two approaches.
+    Utilizing the dataset from this study, we examined the effectiveness of preprocessing
+    techniques and optimal wavenumbers for analyzing Raman spectra, along with identifying
+    the ideal masses for NanoSIMS analysis of cells incubated in the presence of 2
+    H 2 O. We make recommendations for approaches to analyzing and comparing data
+    using both or either of these techniques. We anticipate that the findings presented
+    herein will enhance the comparability of studies employing either technique and
+    ultimately contribute to the establishment of a standardized framework within
+    the field. Importance Accurate and reliable measurements of cellular properties
+    are fundamental to understanding the function and activity of microbes. This study
+    addresses to what extent Raman microspectroscopy and nano-scale secondary ion
+    mass spectrometry (NanoSIMS) measurements of single cell anabolic activity can
+    be compared. For the first time, we study the relationship of the incorporation
+    of a stable isotope ( 2 H through incorporation of 2 H 2 O) as determined by the
+    two techniques and calculate a correlation coefficient to support the use of either
+    technique when analyzing cells incubated with 2 H 2 O. The ability to discern
+    between the comparative strengths and limitations of these techniques is invaluable
+    in refining experimental protocols, enhancing data comparability between studies,
+    data interpretation, and ultimately advancing the quality and reliability of outcomes
+    in microbiome research.
+  publication_date: '2024-07-07'
+  so: bioRxiv (Cold Spring Harbor Laboratory)
+  so_id: https://openalex.org/S4306402567
+  host_organization: Cold Spring Harbor Laboratory
+  issn_l: .na.character
+  url: https://doi.org/10.1101/2024.07.05.602271
+  pdf_url: .na
+  license: .na.character
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na
+  issue: .na.character
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants: .na
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4400429355
+  ids:
+  - ~
+  doi: https://doi.org/10.1101/2024.07.05.602271
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4396525087
+  title: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  display_name: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  author:
+  - ~
+  ab: The study of the firing of archaeological ceramics is a key factor in interpreting
+    ancient techniques and related social practices. This study proposes a new method
+    based on the correspondence analysis of powder X-ray diffraction data (XRD), aiming
+    to provide an alternative to the so-called Equivalent Firing Temperature framework.
+    The properties of correspondence analysis and its application for matrix seriation
+    enable the description of the firing of a ceramic assemblage. The application
+    of correspondence analysis to XRD data of Iron Age ceramics revealed the significant
+    potential of this statistical method in the technological analysis of ancient
+    pottery. This allows to order a large number of samples according to a firing
+    gradient and to track mineralogical transformations occurring during firing. This
+    method should let to more precise comparisons than those based on estimating the
+    equivalent firing temperature.
+  publication_date: '2023-12-31'
+  so: ArchéoSciences
+  so_id: https://openalex.org/S4210197814
+  host_organization: .na.character
+  issn_l: 1960-1360
+  url: https://doi.org/10.4000/archeosciences.12272
+  pdf_url: .na
+  license: cc-by-nc-nd
+  version: publishedVersion
+  first_page: '241'
+  last_page: '256'
+  volume: .na
+  issue: '47'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: hybrid
+  oa_url: https://doi.org/10.4000/archeosciences.12272
+  any_repository_has_fulltext: yes
+  language: en
+  grants: .na
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4396525087
+  ids:
+  - ~
+  doi: https://doi.org/10.4000/archeosciences.12272
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+dimensio:
+- id: https://openalex.org/W4319842934
+  title: 13C, 25Mg, and 43Ca Solid-State NMR for the Purpose of Dolomitic Marbles
+    Provenance Elucidation
+  display_name: 13C, 25Mg, and 43Ca Solid-State NMR for the Purpose of Dolomitic Marbles
+    Provenance Elucidation
+  author:
+  - ~
+  ab: 'The study of the provenance of dolomitic marble artefacts has become relevant
+    since it was discovered that quarries of this marble other than that of Cape-Vathy
+    located on the island of Thasos have been exploited since Antiquity. To improve
+    our knowledge about the provenance of materials and the extent of their dispersion,
+    multiple archaeometric studies were performed in the past including isotope analyses,
+    petrography, cathodoluminescence, and elemental analyses. In the present work,
+    solid-state nuclear magnetic resonance (NMR) spectroscopy has been added to this
+    panel of techniques. NMR allows the characterization of the material at a molecular
+    level by looking at different nuclei: carbon, magnesium, and calcium. Statistical
+    analysis of the data collected on both quarry samples and archaeologic items was
+    also implemented and clearly demonstrates the efficiency of a holistic approach
+    for provenance elucidation. Finally, the first 25Mg NMR tests have shown the potential
+    of this technique to discriminate between dolomitic marbles of different provenance.
+    The results are discussed in terms of their historical meaning and illustrate
+    the exploitation of sources of dolomitic marbles other than the Greek Thasos source.'
+  publication_date: '2023-02-09'
+  so: Materials
+  so_id: https://openalex.org/S18714766
+  host_organization: Multidisciplinary Digital Publishing Institute
+  issn_l: 1996-1944
+  url: https://doi.org/10.3390/ma16041468
+  pdf_url: https://www.mdpi.com/1996-1944/16/4/1468/pdf?version=1676966164
+  license: cc-by
+  version: publishedVersion
+  first_page: '1468'
+  last_page: '1468'
+  volume: '16'
+  issue: '4'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://www.mdpi.com/1996-1944/16/4/1468/pdf?version=1676966164
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4319842934
+  ids:
+  - ~
+  doi: https://doi.org/10.3390/ma16041468
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+isopleuros:
+- id: https://openalex.org/W4396525087
+  title: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  display_name: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  author:
+  - ~
+  ab: The study of the firing of archaeological ceramics is a key factor in interpreting
+    ancient techniques and related social practices. This study proposes a new method
+    based on the correspondence analysis of powder X-ray diffraction data (XRD), aiming
+    to provide an alternative to the so-called Equivalent Firing Temperature framework.
+    The properties of correspondence analysis and its application for matrix seriation
+    enable the description of the firing of a ceramic assemblage. The application
+    of correspondence analysis to XRD data of Iron Age ceramics revealed the significant
+    potential of this statistical method in the technological analysis of ancient
+    pottery. This allows to order a large number of samples according to a firing
+    gradient and to track mineralogical transformations occurring during firing. This
+    method should let to more precise comparisons than those based on estimating the
+    equivalent firing temperature.
+  publication_date: '2023-12-31'
+  so: ArchéoSciences
+  so_id: https://openalex.org/S4210197814
+  host_organization: .na
+  issn_l: 1960-1360
+  url: https://doi.org/10.4000/archeosciences.12272
+  pdf_url: .na
+  license: cc-by-nc-nd
+  version: publishedVersion
+  first_page: '241'
+  last_page: '256'
+  volume: .na
+  issue: '47'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: hybrid
+  oa_url: https://doi.org/10.4000/archeosciences.12272
+  any_repository_has_fulltext: yes
+  language: en
+  grants: .na
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4396525087
+  ids:
+  - ~
+  doi: https://doi.org/10.4000/archeosciences.12272
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 kairos:
 - id: https://openalex.org/W4378902656
   title: 'shoredate: An R package for shoreline dating coastal Stone Age sites'
@@ -173,6 +425,195 @@ khroma:
   - ~
   topics:
   - ~
+- id: https://openalex.org/W4308147631
+  title: Aerosolized aqueous dust extracts collected near a drying lake trigger acute
+    neutrophilic pulmonary inflammation reminiscent of microbial innate immune ligands
+  display_name: Aerosolized aqueous dust extracts collected near a drying lake trigger
+    acute neutrophilic pulmonary inflammation reminiscent of microbial innate immune
+    ligands
+  author:
+  - ~
+  ab: A high incidence of asthma is prevalent among residents near the Salton Sea,
+    a large inland terminal lake in southern California. This arid region has high
+    levels of ambient particulate matter (PM); yet while high PM levels are often
+    associated with asthma in many environments, it is possible that the rapidly retreating
+    lake, and exposed playa or lakebed, may contribute components with a specific
+    role in promoting asthma symptoms.Our hypothesis is that asthma may be higher
+    in residents closest to the Salton Sea due to chronic exposures to playa dust.
+    Playa emissions may be concentrating dissolved material from the lake, with microbial
+    components capable of inducing pulmonary innate immune responses. To test this
+    hypothesis, we used a mouse model of aerosol exposures to assess the effects of
+    playa dust.From dust collected around the Salton Sea region, aqueous extracts
+    were used to generate aerosols, which were injected into an environmental chamber
+    for mouse exposure studies. We compared the effects of exposure to Salton Sea
+    aerosols, as well as to known immunostimulatory reference materials. Acute 48-h
+    and chronic 7-day exposures were compared, with lungs analyzed for inflammatory
+    cell recruitment and gene expression.Dust from sites nearest to the Salton Sea
+    triggered lung neutrophil inflammation that was stronger at 48-h but reduced at
+    7-days. This acute inflammatory profile and kinetics resembled the response to
+    innate immune ligands LTA and LPS while distinct from the classic allergic response
+    to Alternaria.Lung inflammatory responses to Salton Sea dusts are similar to acute
+    innate immune responses, raising the possibility that microbial components are
+    entrained in the dust, promoting inflammation. This effect highlights the health
+    risks at drying terminal lakes from inflammatory components in dust emissions
+    from exposed lakebed.
+  publication_date: '2022-11-02'
+  so: The Science of The Total Environment
+  so_id: https://openalex.org/S86852077
+  host_organization: Elsevier BV
+  issn_l: 0048-9697
+  url: https://doi.org/10.1016/j.scitotenv.2022.159882
+  pdf_url: .na.character
+  license: cc-by
+  version: publishedVersion
+  first_page: '159882'
+  last_page: '159882'
+  volume: '858'
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: hybrid
+  oa_url: https://doi.org/10.1016/j.scitotenv.2022.159882
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 6
+  counts_by_year:
+  - ~
+  publication_year: 2022
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4308147631
+  ids:
+  - ~
+  doi: https://doi.org/10.1016/j.scitotenv.2022.159882
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4404190162
+  title: Genome-wide local ancestry and the functional consequences of admixture in
+    African and European cattle populations
+  display_name: Genome-wide local ancestry and the functional consequences of admixture
+    in African and European cattle populations
+  author:
+  - ~
+  ab: .na.character
+  publication_date: '2024-11-08'
+  so: Heredity
+  so_id: https://openalex.org/S99462834
+  host_organization: Springer Nature
+  issn_l: 0018-067X
+  url: https://doi.org/10.1038/s41437-024-00734-w
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4404190162
+  ids:
+  - ~
+  doi: https://doi.org/10.1038/s41437-024-00734-w
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4399897212
+  title: Genome-wide local ancestry and the functional consequences of admixture in
+    African and European cattle populations
+  display_name: Genome-wide local ancestry and the functional consequences of admixture
+    in African and European cattle populations
+  author:
+  - ~
+  ab: Abstract Bos taurus (taurine) and Bos indicus (indicine) cattle diverged at
+    least 150,000 years ago and, since that time, substantial genomic differences
+    have evolved between the two lineages. During the last two millennia, genetic
+    exchange in Africa has resulted in a complex tapestry of taurine-indicine ancestry,
+    with most cattle populations exhibiting varying levels of admixture. Similarly,
+    there are several Southern European cattle populations that also show evidence
+    for historical gene flow from indicine cattle, the highest levels of which are
+    found in the Central Italian White breeds. Here we use two different software
+    tools (MOSAIC and ELAI) for local ancestry inference (LAI) with genome-wide high-and
+    low-density SNP array data sets in hybrid African and Italian cattle populations
+    and obtained broadly similar results despite critical differences in the two LAI
+    methodologies used. Our analyses identified genomic regions with elevated levels
+    of retained or introgressed ancestry from the African taurine, European taurine,
+    Asian indicine lineages. Functional enrichment of genes underlying these ancestry
+    peaks highlighted biological processes relating to immunobiology and olfaction,
+    some of which may relate to differing susceptibilities to infectious diseases,
+    including bovine tuberculosis, East Coast fever, and tropical theileriosis. Notably,
+    for retained African taurine ancestry in admixed trypanotolerant cattle we observed
+    enrichment of genes associated with haemoglobin and oxygen transport. This may
+    reflect positive selection of genomic variants that enhance control of severe
+    anaemia, a debilitating feature of trypanosomiasis disease, which severely constrains
+    cattle agriculture across much of sub-Saharan Africa.
+  publication_date: '2024-06-20'
+  so: bioRxiv (Cold Spring Harbor Laboratory)
+  so_id: https://openalex.org/S4306402567
+  host_organization: Cold Spring Harbor Laboratory
+  issn_l: .na.character
+  url: https://doi.org/10.1101/2024.06.20.599852
+  pdf_url: https://www.biorxiv.org/content/biorxiv/early/2024/06/20/2024.06.20.599852.full.pdf
+  license: cc-by-nc-nd
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://www.biorxiv.org/content/biorxiv/early/2024/06/20/2024.06.20.599852.full.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4399897212
+  ids:
+  - ~
+  doi: https://doi.org/10.1101/2024.06.20.599852
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W4401182215
   title: Genome-wide local ancestry and the functional consequences of admixture in
     African and European cattle populations
@@ -242,67 +683,115 @@ khroma:
   - ~
   topics:
   - ~
-- id: https://openalex.org/W4308147631
-  title: Aerosolized aqueous dust extracts collected near a drying lake trigger acute
-    neutrophilic pulmonary inflammation reminiscent of microbial innate immune ligands
-  display_name: Aerosolized aqueous dust extracts collected near a drying lake trigger
-    acute neutrophilic pulmonary inflammation reminiscent of microbial innate immune
-    ligands
+- id: https://openalex.org/W4396525087
+  title: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  display_name: 'Assessing the firing of ceramic materials: a seriation-based approach'
   author:
   - ~
-  ab: A high incidence of asthma is prevalent among residents near the Salton Sea,
-    a large inland terminal lake in southern California. This arid region has high
-    levels of ambient particulate matter (PM); yet while high PM levels are often
-    associated with asthma in many environments, it is possible that the rapidly retreating
-    lake, and exposed playa or lakebed, may contribute components with a specific
-    role in promoting asthma symptoms.Our hypothesis is that asthma may be higher
-    in residents closest to the Salton Sea due to chronic exposures to playa dust.
-    Playa emissions may be concentrating dissolved material from the lake, with microbial
-    components capable of inducing pulmonary innate immune responses. To test this
-    hypothesis, we used a mouse model of aerosol exposures to assess the effects of
-    playa dust.From dust collected around the Salton Sea region, aqueous extracts
-    were used to generate aerosols, which were injected into an environmental chamber
-    for mouse exposure studies. We compared the effects of exposure to Salton Sea
-    aerosols, as well as to known immunostimulatory reference materials. Acute 48-h
-    and chronic 7-day exposures were compared, with lungs analyzed for inflammatory
-    cell recruitment and gene expression.Dust from sites nearest to the Salton Sea
-    triggered lung neutrophil inflammation that was stronger at 48-h but reduced at
-    7-days. This acute inflammatory profile and kinetics resembled the response to
-    innate immune ligands LTA and LPS while distinct from the classic allergic response
-    to Alternaria.Lung inflammatory responses to Salton Sea dusts are similar to acute
-    innate immune responses, raising the possibility that microbial components are
-    entrained in the dust, promoting inflammation. This effect highlights the health
-    risks at drying terminal lakes from inflammatory components in dust emissions
-    from exposed lakebed.
-  publication_date: '2022-11-02'
-  so: The Science of The Total Environment
-  so_id: https://openalex.org/S86852077
-  host_organization: Elsevier BV
-  issn_l: 0048-9697
-  url: https://doi.org/10.1016/j.scitotenv.2022.159882
+  ab: The study of the firing of archaeological ceramics is a key factor in interpreting
+    ancient techniques and related social practices. This study proposes a new method
+    based on the correspondence analysis of powder X-ray diffraction data (XRD), aiming
+    to provide an alternative to the so-called Equivalent Firing Temperature framework.
+    The properties of correspondence analysis and its application for matrix seriation
+    enable the description of the firing of a ceramic assemblage. The application
+    of correspondence analysis to XRD data of Iron Age ceramics revealed the significant
+    potential of this statistical method in the technological analysis of ancient
+    pottery. This allows to order a large number of samples according to a firing
+    gradient and to track mineralogical transformations occurring during firing. This
+    method should let to more precise comparisons than those based on estimating the
+    equivalent firing temperature.
+  publication_date: '2023-12-31'
+  so: ArchéoSciences
+  so_id: https://openalex.org/S4210197814
+  host_organization: .na.character
+  issn_l: 1960-1360
+  url: https://doi.org/10.4000/archeosciences.12272
   pdf_url: .na.character
-  license: cc-by
+  license: cc-by-nc-nd
   version: publishedVersion
-  first_page: '159882'
-  last_page: '159882'
-  volume: '858'
-  issue: .na.character
+  first_page: '241'
+  last_page: '256'
+  volume: .na.character
+  issue: '47'
   is_oa: yes
   is_oa_anywhere: yes
   oa_status: hybrid
-  oa_url: https://doi.org/10.1016/j.scitotenv.2022.159882
-  any_repository_has_fulltext: no
+  oa_url: https://doi.org/10.4000/archeosciences.12272
+  any_repository_has_fulltext: yes
   language: en
   grants:
   - ~
-  cited_by_count: 3
+  cited_by_count: 1
   counts_by_year:
   - ~
-  publication_year: 2022
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4308147631
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4396525087
   ids:
   - ~
-  doi: https://doi.org/10.1016/j.scitotenv.2022.159882
+  doi: https://doi.org/10.4000/archeosciences.12272
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W3125303629
+  title: 'Analyse de données de composition et identification des altérations géochimiques
+    des matériaux céramiques : le cas des productions d’un atelier ibérique (Teruel,
+    Espagne ; iie-'
+  display_name: 'Analyse de données de composition et identification des altérations
+    géochimiques des matériaux céramiques : le cas des productions d’un atelier ibérique
+    (Teruel, Espagne ; iie-'
+  author:
+  - ~
+  ab: Dans le cadre d’études de provenance des matériaux céramiques, il est courant
+    de comparer la composition élémentaire de matières premières argileuses avec celle
+    d’artefacts archéologiques. Les problèmes d’altération demeurent cependant peu
+    pris en compte. La présente étude propose ainsi une première comparaison entre
+    des matériaux céramiques et des tessons non cuits retrouvés dans un même contexte
+    archéologique de la fin de l’âge du Fer. Nos résultats illustrent l’importance
+    d’un traitement adéquat des données de compositions géochimiques et l’intérêt
+    des développements méthodologiques dans la suite des travaux de J. Aitchison (1986).
+    Cette approche permet d’identifier les processus intervenant après l’abandon des
+    artefacts et d’éviter des biais taphonomiques, notamment liés aux mécanismes de
+    pédogenèse, qui n’affectent pas argiles et céramiques de la même façon. L’existence
+    d’une altération différentielle en fonction de la nature des matériaux invite
+    à la prudence quant à l’application stricte du postulat de provenance lorsqu’il
+    s’agit de comparer des matériaux archéologiques et géologiques.
+  publication_date: '2020-01-01'
+  so: ArchéoSciences
+  so_id: https://openalex.org/S4210197814
+  host_organization: .na.character
+  issn_l: 1960-1360
+  url: https://doi.org/10.4000/archeosciences.7220
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: '33'
+  last_page: '50'
+  volume: 44-1
+  issue: .na.character
+  is_oa: no
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://hal.science/hal-02877413/document
+  any_repository_has_fulltext: yes
+  language: fr
+  grants:
+  - ~
+  cited_by_count: 2
+  counts_by_year:
+  - ~
+  publication_year: 2020
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W3125303629
+  ids:
+  - ~
+  doi: https://doi.org/10.4000/archeosciences.7220
   type: article
   referenced_works:
   - ~
@@ -442,7 +931,7 @@ tabula:
   language: en
   grants:
   - ~
-  cited_by_count: 9
+  cited_by_count: 12
   counts_by_year:
   - ~
   publication_year: 2023
@@ -533,7 +1022,7 @@ tabula:
   language: en
   grants:
   - ~
-  cited_by_count: 4
+  cited_by_count: 5
   counts_by_year:
   - ~
   publication_year: 2023
@@ -541,6 +1030,76 @@ tabula:
   ids:
   - ~
   doi: https://doi.org/10.15421/012314
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4396939306
+  title: Ecosystem functional types of the circumpolar Arctic tundra based on the
+    seasonal dynamics of vegetation productivity
+  display_name: Ecosystem functional types of the circumpolar Arctic tundra based
+    on the seasonal dynamics of vegetation productivity
+  author:
+  - ~
+  ab: Abstract Biodiversity, when viewed through the combined lenses of compositional,
+    structural, and functional attributes, provides for a holistic understanding of
+    the complexities found within community assemblages and ecosystems. However, advancement
+    in our understanding of how ecosystem functional diversity interacts with structural
+    and compositional diversity metrics is lacking, in part because universally applied
+    methodologies to derive ecosystem functional classifications are still under development
+    and vary widely across scales, extents and biomes. This study presents a methodology
+    to construct ecosystem functional types (EFTs), or areas of the land surface that
+    function similarly, using the MODIS NDVI record, for the terrestrial circumpolar
+    Arctic. EFTs were derived from the seasonal dynamics of NDVI, over the Arctic
+    tundra at 250 m resolution and compared to bioclimate subzones and to structurally
+    and compositionally defined vegetation units of the Circumpolar Arctic Vegetation
+    Map (CAVM). Correspondence analyses of CAVM EFTs to previously delineated CAVM
+    bioclimatic subzones, physiognomic (vegetation) units and floristic provinces
+    revealed a general congruence, indicating convergence across composition, structure,
+    and function; yet also demonstrated substantial functional variability even within
+    bioclimate subzones and vegetation units. Strong latitudinal gradients in ecosystem
+    function are present, with EFT richness ranging from low (34) in northernmost
+    regions to high (45) in southernmost regions. Locally, the mountainous regions
+    of northern Alaska, and eastern and western Siberia had high spatial variability
+    in ecosystem functioning. Aside from these generalities, we found that EFTs varied
+    widely within individual mapped vegetation units, successfully capturing the functional
+    dimension of biodiversity across the circumpolar Arctic tundra.
+  publication_date: '2024-05-15'
+  so: Environmental Research Ecology
+  so_id: https://openalex.org/S4387280329
+  host_organization: IOP Publishing
+  issn_l: 2752-664X
+  url: https://doi.org/10.1088/2752-664x/ad4beb
+  pdf_url: https://iopscience.iop.org/article/10.1088/2752-664X/ad4beb/pdf
+  license: cc-by
+  version: publishedVersion
+  first_page: '025003'
+  last_page: '025003'
+  volume: '3'
+  issue: '2'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: diamond
+  oa_url: https://iopscience.iop.org/article/10.1088/2752-664X/ad4beb/pdf
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4396939306
+  ids:
+  - ~
+  doi: https://doi.org/10.1088/2752-664x/ad4beb
   type: article
   referenced_works:
   - ~
@@ -677,65 +1236,60 @@ tabula:
   - ~
   topics:
   - ~
-- id: https://openalex.org/W4396939306
-  title: Ecosystem functional types of the circumpolar Arctic tundra based on the
-    seasonal dynamics of vegetation productivity
-  display_name: Ecosystem functional types of the circumpolar Arctic tundra based
-    on the seasonal dynamics of vegetation productivity
+- id: https://openalex.org/W3217092927
+  title: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts, parasitopes,
+    collection localities, and seasons in northern Iran'
+  display_name: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts,
+    parasitopes, collection localities, and seasons in northern Iran'
   author:
   - ~
-  ab: Abstract Biodiversity, when viewed through the combined lenses of compositional,
-    structural, and functional attributes, provides for a holistic understanding of
-    the complexities found within community assemblages and ecosystems. However, advancement
-    in our understanding of how ecosystem functional diversity interacts with structural
-    and compositional diversity metrics is lacking, in part because universally applied
-    methodologies to derive ecosystem functional classifications are still under development
-    and vary widely across scales, extents and biomes. This study presents a methodology
-    to construct ecosystem functional types (EFTs), or areas of the land surface that
-    function similarly, using the MODIS NDVI record, for the terrestrial circumpolar
-    Arctic. EFTs were derived from the seasonal dynamics of NDVI, over the Arctic
-    tundra at 250 m resolution and compared to bioclimate subzones and to structurally
-    and compositionally defined vegetation units of the Circumpolar Arctic Vegetation
-    Map (CAVM). Correspondence analyses of CAVM EFTs to previously delineated CAVM
-    bioclimatic subzones, physiognomic (vegetation) units and floristic provinces
-    revealed a general congruence, indicating convergence across composition, structure,
-    and function; yet also demonstrated substantial functional variability even within
-    bioclimate subzones and vegetation units. Strong latitudinal gradients in ecosystem
-    function are present, with EFT richness ranging from low (34) in northernmost
-    regions to high (45) in southernmost regions. Locally, the mountainous regions
-    of northern Alaska, and eastern and western Siberia had high spatial variability
-    in ecosystem functioning. Aside from these generalities, we found that EFTs varied
-    widely within individual mapped vegetation units, successfully capturing the functional
-    dimension of biodiversity across the circumpolar Arctic tundra.
-  publication_date: '2024-05-15'
-  so: Environmental Research Ecology
-  so_id: https://openalex.org/S4387280329
-  host_organization: IOP Publishing
-  issn_l: 2752-664X
-  url: https://doi.org/10.1088/2752-664x/ad4beb
-  pdf_url: https://iopscience.iop.org/article/10.1088/2752-664X/ad4beb/pdf
-  license: cc-by
-  version: publishedVersion
-  first_page: '025003'
-  last_page: '025003'
-  volume: '3'
-  issue: '2'
-  is_oa: yes
-  is_oa_anywhere: yes
-  oa_status: diamond
-  oa_url: https://iopscience.iop.org/article/10.1088/2752-664X/ad4beb/pdf
+  ab: We studied the distribution of chigger mite species over mammal hosts, attachment
+    sites on the host body, habitats, and seasons in Iran. The study was based on
+    2155 specimens of 36 chigger species collected from 10 species of Muridae, Cricetidae,
+    and Soricidae across six provinces of northern Iran. A high level of mixed infestation
+    by chiggers was recorded-76% of hosts parasitized by chiggers were infested by
+    more than one (2-8) species. Statistically significant differences in the preference
+    for anterior and posterior parts of the host body were found. Three species-Neotrombicula
+    lubrica, N. delijani, and Cheladonta firdousii-preferred the posterior part of
+    the host body; 12 species were characterized by the occurrence in the anterior
+    part and differed from one another by the frequency of presence in the posterior
+    part. One species, Hirsutiella alpina, was found only in the anterior part of
+    the host body (inside the ears of rodents). The most diverse chigger fauna was
+    on the fringe of Golestan National Park (species richness = 21, Shannon-Wiener
+    index = 2.823). The chigger fauna of the high-mountain localities on the Alborz
+    Range was the least diverse (species richness = 16, Shannon-Wiener index = 2.439).
+    The seasonal aspect of activity was evident for Neotrombicula elegans, which exposed
+    the autumn-winter period of the occurrence on hosts, and N. vernalis, with the
+    winter-spring peak of abundance.
+  publication_date: '2021-11-24'
+  so: Experimental and Applied Acarology
+  so_id: https://openalex.org/S150156781
+  host_organization: Springer Science+Business Media
+  issn_l: 0168-8162
+  url: https://doi.org/10.1007/s10493-021-00680-w
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: '21'
+  last_page: '47'
+  volume: '86'
+  issue: '1'
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
   any_repository_has_fulltext: no
   language: en
   grants:
   - ~
-  cited_by_count: 0
+  cited_by_count: 8
   counts_by_year:
   - ~
-  publication_year: 2024
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4396939306
+  publication_year: 2021
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W3217092927
   ids:
   - ~
-  doi: https://doi.org/10.1088/2752-664x/ad4beb
+  doi: https://doi.org/10.1007/s10493-021-00680-w
   type: article
   referenced_works:
   - ~
@@ -865,60 +1419,61 @@ tabula:
   - ~
   topics:
   - ~
-- id: https://openalex.org/W3217092927
-  title: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts, parasitopes,
-    collection localities, and seasons in northern Iran'
-  display_name: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts,
-    parasitopes, collection localities, and seasons in northern Iran'
+- id: https://openalex.org/W4403785402
+  title: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
+  display_name: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
   author:
   - ~
-  ab: We studied the distribution of chigger mite species over mammal hosts, attachment
-    sites on the host body, habitats, and seasons in Iran. The study was based on
-    2155 specimens of 36 chigger species collected from 10 species of Muridae, Cricetidae,
-    and Soricidae across six provinces of northern Iran. A high level of mixed infestation
-    by chiggers was recorded-76% of hosts parasitized by chiggers were infested by
-    more than one (2-8) species. Statistically significant differences in the preference
-    for anterior and posterior parts of the host body were found. Three species-Neotrombicula
-    lubrica, N. delijani, and Cheladonta firdousii-preferred the posterior part of
-    the host body; 12 species were characterized by the occurrence in the anterior
-    part and differed from one another by the frequency of presence in the posterior
-    part. One species, Hirsutiella alpina, was found only in the anterior part of
-    the host body (inside the ears of rodents). The most diverse chigger fauna was
-    on the fringe of Golestan National Park (species richness = 21, Shannon-Wiener
-    index = 2.823). The chigger fauna of the high-mountain localities on the Alborz
-    Range was the least diverse (species richness = 16, Shannon-Wiener index = 2.439).
-    The seasonal aspect of activity was evident for Neotrombicula elegans, which exposed
-    the autumn-winter period of the occurrence on hosts, and N. vernalis, with the
-    winter-spring peak of abundance.
-  publication_date: '2021-11-24'
-  so: Experimental and Applied Acarology
-  so_id: https://openalex.org/S150156781
-  host_organization: Springer Science+Business Media
-  issn_l: 0168-8162
-  url: https://doi.org/10.1007/s10493-021-00680-w
+  ab: Amino acids are the building blocks of proteins and enzymes which are essential
+    for life. Understanding amino acid usage offers insights into protein function
+    and molecular mechanisms underlying life histories. However, genome-wide patterns
+    of amino acid usage across domains of life remain poorly understood. Here, we
+    analysed the proteomes of 5590 species across four domains and found that only
+    a few amino acids are consistently the most and least used. This differential
+    usage results in lower amino acid usage diversity at the most and least frequent
+    ranks, creating a ubiquitous inverted U-shape pattern of amino acid diversity
+    and rank which we call an 'edge effect' across proteomes and domains of life.
+    This effect likely stems from protein secondary structural constraints, not the
+    evolutionary chronology of amino acid incorporation into the genetic code, highlighting
+    the functional rather than evolutionary influences on amino acid usage. We also
+    tested other contemporary hypotheses regarding amino acid usage in proteomes and
+    found that amino acid usage varies across life's domains and is only weakly influenced
+    by growth temperature. Our findings reveal a novel and pervasive amino acid usage
+    pattern across genomes with the potential to help us probe deep evolutionary relationships
+    and advance synthetic biology.
+  publication_date: '2024-10-26'
+  so: Scientific Reports
+  so_id: https://openalex.org/S196734849
+  host_organization: Nature Portfolio
+  issn_l: 2045-2322
+  url: https://doi.org/10.1038/s41598-024-77319-4
   pdf_url: .na.character
-  license: .na.character
-  version: .na.character
-  first_page: '21'
-  last_page: '47'
-  volume: '86'
+  license: cc-by
+  version: publishedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: '14'
   issue: '1'
-  is_oa: no
-  is_oa_anywhere: no
-  oa_status: closed
-  oa_url: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://doi.org/10.1038/s41598-024-77319-4
   any_repository_has_fulltext: no
   language: en
   grants:
   - ~
-  cited_by_count: 7
+  cited_by_count: 0
   counts_by_year:
   - ~
-  publication_year: 2021
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W3217092927
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4403785402
   ids:
   - ~
-  doi: https://doi.org/10.1007/s10493-021-00680-w
+  doi: https://doi.org/10.1038/s41598-024-77319-4
   type: article
   referenced_works:
   - ~
@@ -1024,8 +1579,9 @@ tabula:
     experiment. The experiment shows that our approach achieved over 95% classification
     accuracy and 90% detection accuracy for tables and figures.
   publication_date: '2023-09-20'
-  so: .na.character
-  so_id: .na.character
+  so: 2021 International Conference on INnovations in Intelligent SysTems and Applications
+    (INISTA)
+  so_id: https://openalex.org/S4306498847
   host_organization: .na.character
   issn_l: .na.character
   url: https://doi.org/10.1109/inista59065.2023.10310320
@@ -1170,6 +1726,132 @@ tabula:
   - ~
   topics:
   - ~
+- id: https://openalex.org/W4360616814
+  title: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years and
+    Relationships with Species Traits
+  display_name: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years
+    and Relationships with Species Traits
+  author:
+  - ~
+  ab: We conducted a mussel survey of the Jacks Fork, Missouri, an Outstanding National
+    Resource Water, to document mussel diversity and distribution in the watershed,
+    to determine if changes had occurred since a previous survey in 1982, and to relate
+    observed changes to species traits. We surveyed mussels with timed tactile or
+    visual searches at 28 sites during summer from 2017 to 2019 and compared our results
+    with the 1982 survey. Catch per unit effort, number of live individuals, species
+    richness, and diversity were significantly lower in 2017–19 than in 1982. The
+    proportion of extirpation at the 11 resurveyed sites averaged 0.85 (range 0.50–1.00)
+    among species, and the proportion of colonization was 0.0 for all species. There
+    were no differences in the relative abundance of tribes, life-history strategies,
+    or species of conservation concern between the two surveys, suggesting that the
+    decline has occurred evenly across species, tribes, and life-history strategies.
+    Ten species are possibly extirpated from the basin. Causes of the mussel decline
+    in the Jacks Fork basin are unknown.
+  publication_date: '2023-03-23'
+  so: Freshwater Mollusk Biology and Conservation
+  so_id: https://openalex.org/S4210177210
+  host_organization: .na.character
+  issn_l: 2472-2944
+  url: https://doi.org/10.31931/fmbc-d-21-00012
+  pdf_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
+  license: .na.character
+  version: publishedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: '26'
+  issue: '1'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4360616814
+  ids:
+  - ~
+  doi: https://doi.org/10.31931/fmbc-d-21-00012
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4378770596
+  title: A Framework For Refining Text Classification and Object Recognition from
+    Academic Articles
+  display_name: A Framework For Refining Text Classification and Object Recognition
+    from Academic Articles
+  author:
+  - ~
+  ab: With the widespread use of the internet, it has become increasingly crucial
+    to extract specific information from vast amounts of academic articles efficiently.
+    Data mining techniques are generally employed to solve this issue. However, data
+    mining for academic articles is challenging since it requires automatically extracting
+    specific patterns in complex and unstructured layout documents. Current data mining
+    methods for academic articles employ rule-based(RB) or machine learning(ML) approaches.
+    However, using rule-based methods incurs a high coding cost for complex typesetting
+    articles. On the other hand, simply using machine learning methods requires annotation
+    work for complex content types within the paper, which can be costly. Furthermore,
+    only using machine learning can lead to cases where patterns easily recognized
+    by rule-based methods are mistakenly extracted. To overcome these issues, from
+    the perspective of analyzing the standard layout and typesetting used in the specified
+    publication, we emphasize implementing specific methods for specific characteristics
+    in academic articles. We have developed a novel Text Block Refinement Framework
+    (TBRF), a machine learning and rule-based scheme hybrid. We used the well-known
+    ACL proceeding articles as experimental data for the validation experiment. The
+    experiment shows that our approach achieved over 95% classification accuracy and
+    90% detection accuracy for tables and figures.
+  publication_date: '2023-01-01'
+  so: arXiv (Cornell University)
+  so_id: https://openalex.org/S4306400194
+  host_organization: Cornell University
+  issn_l: .na.character
+  url: https://arxiv.org/abs/2305.17401
+  pdf_url: .na.character
+  license: other-oa
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://arxiv.org/abs/2305.17401
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4378770596
+  ids:
+  - ~
+  doi: https://doi.org/10.48550/arxiv.2305.17401
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W4317772458
   title: Changes in the Freshwater Mussels of the Missouri Portion of the Ozark Highlands
     Eleven Point River, 1982–1985 and 2012–2019
@@ -1297,132 +1979,6 @@ tabula:
   ids:
   - ~
   doi: https://doi.org/10.21203/rs.3.rs-2610304/v1
-  type: preprint
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
-- id: https://openalex.org/W4360616814
-  title: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years and
-    Relationships with Species Traits
-  display_name: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years
-    and Relationships with Species Traits
-  author:
-  - ~
-  ab: We conducted a mussel survey of the Jacks Fork, Missouri, an Outstanding National
-    Resource Water, to document mussel diversity and distribution in the watershed,
-    to determine if changes had occurred since a previous survey in 1982, and to relate
-    observed changes to species traits. We surveyed mussels with timed tactile or
-    visual searches at 28 sites during summer from 2017 to 2019 and compared our results
-    with the 1982 survey. Catch per unit effort, number of live individuals, species
-    richness, and diversity were significantly lower in 2017–19 than in 1982. The
-    proportion of extirpation at the 11 resurveyed sites averaged 0.85 (range 0.50–1.00)
-    among species, and the proportion of colonization was 0.0 for all species. There
-    were no differences in the relative abundance of tribes, life-history strategies,
-    or species of conservation concern between the two surveys, suggesting that the
-    decline has occurred evenly across species, tribes, and life-history strategies.
-    Ten species are possibly extirpated from the basin. Causes of the mussel decline
-    in the Jacks Fork basin are unknown.
-  publication_date: '2023-03-23'
-  so: Freshwater Mollusk Biology and Conservation
-  so_id: https://openalex.org/S4210177210
-  host_organization: .na.character
-  issn_l: 2472-2944
-  url: https://doi.org/10.31931/fmbc-d-21-00012
-  pdf_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
-  license: .na.character
-  version: publishedVersion
-  first_page: .na.character
-  last_page: .na.character
-  volume: '26'
-  issue: '1'
-  is_oa: yes
-  is_oa_anywhere: yes
-  oa_status: gold
-  oa_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
-  any_repository_has_fulltext: no
-  language: en
-  grants:
-  - ~
-  cited_by_count: 0
-  counts_by_year:
-  - ~
-  publication_year: 2023
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4360616814
-  ids:
-  - ~
-  doi: https://doi.org/10.31931/fmbc-d-21-00012
-  type: article
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
-- id: https://openalex.org/W4378770596
-  title: A Framework For Refining Text Classification and Object Recognition from
-    Academic Articles
-  display_name: A Framework For Refining Text Classification and Object Recognition
-    from Academic Articles
-  author:
-  - ~
-  ab: With the widespread use of the internet, it has become increasingly crucial
-    to extract specific information from vast amounts of academic articles efficiently.
-    Data mining techniques are generally employed to solve this issue. However, data
-    mining for academic articles is challenging since it requires automatically extracting
-    specific patterns in complex and unstructured layout documents. Current data mining
-    methods for academic articles employ rule-based(RB) or machine learning(ML) approaches.
-    However, using rule-based methods incurs a high coding cost for complex typesetting
-    articles. On the other hand, simply using machine learning methods requires annotation
-    work for complex content types within the paper, which can be costly. Furthermore,
-    only using machine learning can lead to cases where patterns easily recognized
-    by rule-based methods are mistakenly extracted. To overcome these issues, from
-    the perspective of analyzing the standard layout and typesetting used in the specified
-    publication, we emphasize implementing specific methods for specific characteristics
-    in academic articles. We have developed a novel Text Block Refinement Framework
-    (TBRF), a machine learning and rule-based scheme hybrid. We used the well-known
-    ACL proceeding articles as experimental data for the validation experiment. The
-    experiment shows that our approach achieved over 95% classification accuracy and
-    90% detection accuracy for tables and figures.
-  publication_date: '2023-01-01'
-  so: arXiv (Cornell University)
-  so_id: https://openalex.org/S4306400194
-  host_organization: Cornell University
-  issn_l: .na.character
-  url: https://arxiv.org/abs/2305.17401
-  pdf_url: .na.character
-  license: other-oa
-  version: submittedVersion
-  first_page: .na.character
-  last_page: .na.character
-  volume: .na.character
-  issue: .na.character
-  is_oa: yes
-  is_oa_anywhere: yes
-  oa_status: green
-  oa_url: https://arxiv.org/abs/2305.17401
-  any_repository_has_fulltext: yes
-  language: en
-  grants:
-  - ~
-  cited_by_count: 0
-  counts_by_year:
-  - ~
-  publication_year: 2023
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4378770596
-  ids:
-  - ~
-  doi: https://doi.org/10.48550/arxiv.2305.17401
   type: preprint
   referenced_works:
   - ~

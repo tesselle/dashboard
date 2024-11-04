@@ -177,6 +177,21 @@ resume |>
 ### Column
 
 ```{r}
+#| label: cites
+#| title: "Citations"
+#| fig-width: 7
+#| fig-height: 7
+#| eval: false
+cites <- do.call(rbind, citations)
+hist(
+  x = cites$publication_year,
+  xlab = "Citations",
+  main = NULL,
+  las = 1
+)
+```
+
+```{r}
 #| label: dependency-network
 #| title: "Dependency Network"
 #| fig-width: 7
