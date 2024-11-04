@@ -1,3 +1,117 @@
+alkahest:
+- id: https://openalex.org/W4396525087
+  title: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  display_name: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  author:
+  - ~
+  ab: The study of the firing of archaeological ceramics is a key factor in interpreting
+    ancient techniques and related social practices. This study proposes a new method
+    based on the correspondence analysis of powder X-ray diffraction data (XRD), aiming
+    to provide an alternative to the so-called Equivalent Firing Temperature framework.
+    The properties of correspondence analysis and its application for matrix seriation
+    enable the description of the firing of a ceramic assemblage. The application
+    of correspondence analysis to XRD data of Iron Age ceramics revealed the significant
+    potential of this statistical method in the technological analysis of ancient
+    pottery. This allows to order a large number of samples according to a firing
+    gradient and to track mineralogical transformations occurring during firing. This
+    method should let to more precise comparisons than those based on estimating the
+    equivalent firing temperature.
+  publication_date: '2023-12-31'
+  so: ArchéoSciences
+  so_id: https://openalex.org/S4210197814
+  host_organization: .na
+  issn_l: 1960-1360
+  url: https://doi.org/10.4000/archeosciences.12272
+  pdf_url: .na
+  license: cc-by-nc-nd
+  version: publishedVersion
+  first_page: '241'
+  last_page: '256'
+  volume: .na
+  issue: '47'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: hybrid
+  oa_url: https://doi.org/10.4000/archeosciences.12272
+  any_repository_has_fulltext: yes
+  language: en
+  grants: .na
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4396525087
+  ids:
+  - ~
+  doi: https://doi.org/10.4000/archeosciences.12272
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+isopleuros:
+- id: https://openalex.org/W4396525087
+  title: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  display_name: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  author:
+  - ~
+  ab: The study of the firing of archaeological ceramics is a key factor in interpreting
+    ancient techniques and related social practices. This study proposes a new method
+    based on the correspondence analysis of powder X-ray diffraction data (XRD), aiming
+    to provide an alternative to the so-called Equivalent Firing Temperature framework.
+    The properties of correspondence analysis and its application for matrix seriation
+    enable the description of the firing of a ceramic assemblage. The application
+    of correspondence analysis to XRD data of Iron Age ceramics revealed the significant
+    potential of this statistical method in the technological analysis of ancient
+    pottery. This allows to order a large number of samples according to a firing
+    gradient and to track mineralogical transformations occurring during firing. This
+    method should let to more precise comparisons than those based on estimating the
+    equivalent firing temperature.
+  publication_date: '2023-12-31'
+  so: ArchéoSciences
+  so_id: https://openalex.org/S4210197814
+  host_organization: .na
+  issn_l: 1960-1360
+  url: https://doi.org/10.4000/archeosciences.12272
+  pdf_url: .na
+  license: cc-by-nc-nd
+  version: publishedVersion
+  first_page: '241'
+  last_page: '256'
+  volume: .na
+  issue: '47'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: hybrid
+  oa_url: https://doi.org/10.4000/archeosciences.12272
+  any_repository_has_fulltext: yes
+  language: en
+  grants: .na
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4396525087
+  ids:
+  - ~
+  doi: https://doi.org/10.4000/archeosciences.12272
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 kairos:
 - id: https://openalex.org/W4378902656
   title: 'shoredate: An R package for shoreline dating coastal Stone Age sites'
@@ -173,6 +287,78 @@ khroma:
   - ~
   topics:
   - ~
+- id: https://openalex.org/W4308147631
+  title: Aerosolized aqueous dust extracts collected near a drying lake trigger acute
+    neutrophilic pulmonary inflammation reminiscent of microbial innate immune ligands
+  display_name: Aerosolized aqueous dust extracts collected near a drying lake trigger
+    acute neutrophilic pulmonary inflammation reminiscent of microbial innate immune
+    ligands
+  author:
+  - ~
+  ab: A high incidence of asthma is prevalent among residents near the Salton Sea,
+    a large inland terminal lake in southern California. This arid region has high
+    levels of ambient particulate matter (PM); yet while high PM levels are often
+    associated with asthma in many environments, it is possible that the rapidly retreating
+    lake, and exposed playa or lakebed, may contribute components with a specific
+    role in promoting asthma symptoms.Our hypothesis is that asthma may be higher
+    in residents closest to the Salton Sea due to chronic exposures to playa dust.
+    Playa emissions may be concentrating dissolved material from the lake, with microbial
+    components capable of inducing pulmonary innate immune responses. To test this
+    hypothesis, we used a mouse model of aerosol exposures to assess the effects of
+    playa dust.From dust collected around the Salton Sea region, aqueous extracts
+    were used to generate aerosols, which were injected into an environmental chamber
+    for mouse exposure studies. We compared the effects of exposure to Salton Sea
+    aerosols, as well as to known immunostimulatory reference materials. Acute 48-h
+    and chronic 7-day exposures were compared, with lungs analyzed for inflammatory
+    cell recruitment and gene expression.Dust from sites nearest to the Salton Sea
+    triggered lung neutrophil inflammation that was stronger at 48-h but reduced at
+    7-days. This acute inflammatory profile and kinetics resembled the response to
+    innate immune ligands LTA and LPS while distinct from the classic allergic response
+    to Alternaria.Lung inflammatory responses to Salton Sea dusts are similar to acute
+    innate immune responses, raising the possibility that microbial components are
+    entrained in the dust, promoting inflammation. This effect highlights the health
+    risks at drying terminal lakes from inflammatory components in dust emissions
+    from exposed lakebed.
+  publication_date: '2022-11-02'
+  so: The Science of The Total Environment
+  so_id: https://openalex.org/S86852077
+  host_organization: Elsevier BV
+  issn_l: 0048-9697
+  url: https://doi.org/10.1016/j.scitotenv.2022.159882
+  pdf_url: .na.character
+  license: cc-by
+  version: publishedVersion
+  first_page: '159882'
+  last_page: '159882'
+  volume: '858'
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: hybrid
+  oa_url: https://doi.org/10.1016/j.scitotenv.2022.159882
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 5
+  counts_by_year:
+  - ~
+  publication_year: 2022
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4308147631
+  ids:
+  - ~
+  doi: https://doi.org/10.1016/j.scitotenv.2022.159882
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W4401182215
   title: Genome-wide local ancestry and the functional consequences of admixture in
     African and European cattle populations
@@ -242,67 +428,52 @@ khroma:
   - ~
   topics:
   - ~
-- id: https://openalex.org/W4308147631
-  title: Aerosolized aqueous dust extracts collected near a drying lake trigger acute
-    neutrophilic pulmonary inflammation reminiscent of microbial innate immune ligands
-  display_name: Aerosolized aqueous dust extracts collected near a drying lake trigger
-    acute neutrophilic pulmonary inflammation reminiscent of microbial innate immune
-    ligands
+- id: https://openalex.org/W4396525087
+  title: 'Assessing the firing of ceramic materials: a seriation-based approach'
+  display_name: 'Assessing the firing of ceramic materials: a seriation-based approach'
   author:
   - ~
-  ab: A high incidence of asthma is prevalent among residents near the Salton Sea,
-    a large inland terminal lake in southern California. This arid region has high
-    levels of ambient particulate matter (PM); yet while high PM levels are often
-    associated with asthma in many environments, it is possible that the rapidly retreating
-    lake, and exposed playa or lakebed, may contribute components with a specific
-    role in promoting asthma symptoms.Our hypothesis is that asthma may be higher
-    in residents closest to the Salton Sea due to chronic exposures to playa dust.
-    Playa emissions may be concentrating dissolved material from the lake, with microbial
-    components capable of inducing pulmonary innate immune responses. To test this
-    hypothesis, we used a mouse model of aerosol exposures to assess the effects of
-    playa dust.From dust collected around the Salton Sea region, aqueous extracts
-    were used to generate aerosols, which were injected into an environmental chamber
-    for mouse exposure studies. We compared the effects of exposure to Salton Sea
-    aerosols, as well as to known immunostimulatory reference materials. Acute 48-h
-    and chronic 7-day exposures were compared, with lungs analyzed for inflammatory
-    cell recruitment and gene expression.Dust from sites nearest to the Salton Sea
-    triggered lung neutrophil inflammation that was stronger at 48-h but reduced at
-    7-days. This acute inflammatory profile and kinetics resembled the response to
-    innate immune ligands LTA and LPS while distinct from the classic allergic response
-    to Alternaria.Lung inflammatory responses to Salton Sea dusts are similar to acute
-    innate immune responses, raising the possibility that microbial components are
-    entrained in the dust, promoting inflammation. This effect highlights the health
-    risks at drying terminal lakes from inflammatory components in dust emissions
-    from exposed lakebed.
-  publication_date: '2022-11-02'
-  so: The Science of The Total Environment
-  so_id: https://openalex.org/S86852077
-  host_organization: Elsevier BV
-  issn_l: 0048-9697
-  url: https://doi.org/10.1016/j.scitotenv.2022.159882
+  ab: The study of the firing of archaeological ceramics is a key factor in interpreting
+    ancient techniques and related social practices. This study proposes a new method
+    based on the correspondence analysis of powder X-ray diffraction data (XRD), aiming
+    to provide an alternative to the so-called Equivalent Firing Temperature framework.
+    The properties of correspondence analysis and its application for matrix seriation
+    enable the description of the firing of a ceramic assemblage. The application
+    of correspondence analysis to XRD data of Iron Age ceramics revealed the significant
+    potential of this statistical method in the technological analysis of ancient
+    pottery. This allows to order a large number of samples according to a firing
+    gradient and to track mineralogical transformations occurring during firing. This
+    method should let to more precise comparisons than those based on estimating the
+    equivalent firing temperature.
+  publication_date: '2023-12-31'
+  so: ArchéoSciences
+  so_id: https://openalex.org/S4210197814
+  host_organization: .na.character
+  issn_l: 1960-1360
+  url: https://doi.org/10.4000/archeosciences.12272
   pdf_url: .na.character
-  license: cc-by
+  license: cc-by-nc-nd
   version: publishedVersion
-  first_page: '159882'
-  last_page: '159882'
-  volume: '858'
-  issue: .na.character
+  first_page: '241'
+  last_page: '256'
+  volume: .na.character
+  issue: '47'
   is_oa: yes
   is_oa_anywhere: yes
   oa_status: hybrid
-  oa_url: https://doi.org/10.1016/j.scitotenv.2022.159882
-  any_repository_has_fulltext: no
+  oa_url: https://doi.org/10.4000/archeosciences.12272
+  any_repository_has_fulltext: yes
   language: en
   grants:
   - ~
-  cited_by_count: 3
+  cited_by_count: 1
   counts_by_year:
   - ~
-  publication_year: 2022
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4308147631
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4396525087
   ids:
   - ~
-  doi: https://doi.org/10.1016/j.scitotenv.2022.159882
+  doi: https://doi.org/10.4000/archeosciences.12272
   type: article
   referenced_works:
   - ~
@@ -442,7 +613,7 @@ tabula:
   language: en
   grants:
   - ~
-  cited_by_count: 9
+  cited_by_count: 11
   counts_by_year:
   - ~
   publication_year: 2023
@@ -854,6 +1025,72 @@ tabula:
   ids:
   - ~
   doi: https://doi.org/10.1007/s42979-024-03130-7
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4403785402
+  title: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
+  display_name: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
+  author:
+  - ~
+  ab: Amino acids are the building blocks of proteins and enzymes which are essential
+    for life. Understanding amino acid usage offers insights into protein function
+    and molecular mechanisms underlying life histories. However, genome-wide patterns
+    of amino acid usage across domains of life remain poorly understood. Here, we
+    analysed the proteomes of 5590 species across four domains and found that only
+    a few amino acids are consistently the most and least used. This differential
+    usage results in lower amino acid usage diversity at the most and least frequent
+    ranks, creating a ubiquitous inverted U-shape pattern of amino acid diversity
+    and rank which we call an 'edge effect' across proteomes and domains of life.
+    This effect likely stems from protein secondary structural constraints, not the
+    evolutionary chronology of amino acid incorporation into the genetic code, highlighting
+    the functional rather than evolutionary influences on amino acid usage. We also
+    tested other contemporary hypotheses regarding amino acid usage in proteomes and
+    found that amino acid usage varies across life's domains and is only weakly influenced
+    by growth temperature. Our findings reveal a novel and pervasive amino acid usage
+    pattern across genomes with the potential to help us probe deep evolutionary relationships
+    and advance synthetic biology.
+  publication_date: '2024-10-26'
+  so: Scientific Reports
+  so_id: https://openalex.org/S196734849
+  host_organization: Nature Portfolio
+  issn_l: 2045-2322
+  url: https://doi.org/10.1038/s41598-024-77319-4
+  pdf_url: .na.character
+  license: cc-by
+  version: publishedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: '14'
+  issue: '1'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://doi.org/10.1038/s41598-024-77319-4
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4403785402
+  ids:
+  - ~
+  doi: https://doi.org/10.1038/s41598-024-77319-4
   type: article
   referenced_works:
   - ~
