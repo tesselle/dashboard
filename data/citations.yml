@@ -41,7 +41,7 @@ alkahest:
   host_organization: Cold Spring Harbor Laboratory
   issn_l: .na.character
   url: https://doi.org/10.1101/2024.07.05.602271
-  pdf_url: .na
+  pdf_url: .na.character
   license: .na.character
   version: submittedVersion
   first_page: .na.character
@@ -97,7 +97,7 @@ alkahest:
   host_organization: .na.character
   issn_l: 1960-1360
   url: https://doi.org/10.4000/archeosciences.12272
-  pdf_url: .na
+  pdf_url: .na.character
   license: cc-by-nc-nd
   version: publishedVersion
   first_page: '241'
@@ -214,10 +214,10 @@ isopleuros:
   publication_date: '2023-12-31'
   so: ArchéoSciences
   so_id: https://openalex.org/S4210197814
-  host_organization: .na
+  host_organization: .na.character
   issn_l: 1960-1360
   url: https://doi.org/10.4000/archeosciences.12272
-  pdf_url: .na
+  pdf_url: .na.character
   license: cc-by-nc-nd
   version: publishedVersion
   first_page: '241'
@@ -784,7 +784,7 @@ khroma:
   language: fr
   grants:
   - ~
-  cited_by_count: 2
+  cited_by_count: 3
   counts_by_year:
   - ~
   publication_year: 2020
@@ -1158,7 +1158,7 @@ tabula:
   language: en
   grants:
   - ~
-  cited_by_count: 13
+  cited_by_count: 14
   counts_by_year:
   - ~
   publication_year: 2020
@@ -1243,24 +1243,7 @@ tabula:
     parasitopes, collection localities, and seasons in northern Iran'
   author:
   - ~
-  ab: We studied the distribution of chigger mite species over mammal hosts, attachment
-    sites on the host body, habitats, and seasons in Iran. The study was based on
-    2155 specimens of 36 chigger species collected from 10 species of Muridae, Cricetidae,
-    and Soricidae across six provinces of northern Iran. A high level of mixed infestation
-    by chiggers was recorded-76% of hosts parasitized by chiggers were infested by
-    more than one (2-8) species. Statistically significant differences in the preference
-    for anterior and posterior parts of the host body were found. Three species-Neotrombicula
-    lubrica, N. delijani, and Cheladonta firdousii-preferred the posterior part of
-    the host body; 12 species were characterized by the occurrence in the anterior
-    part and differed from one another by the frequency of presence in the posterior
-    part. One species, Hirsutiella alpina, was found only in the anterior part of
-    the host body (inside the ears of rodents). The most diverse chigger fauna was
-    on the fringe of Golestan National Park (species richness = 21, Shannon-Wiener
-    index = 2.823). The chigger fauna of the high-mountain localities on the Alborz
-    Range was the least diverse (species richness = 16, Shannon-Wiener index = 2.439).
-    The seasonal aspect of activity was evident for Neotrombicula elegans, which exposed
-    the autumn-winter period of the occurrence on hosts, and N. vernalis, with the
-    winter-spring peak of abundance.
+  ab: .na.character
   publication_date: '2021-11-24'
   so: Experimental and Applied Acarology
   so_id: https://openalex.org/S150156781
@@ -1371,54 +1354,6 @@ tabula:
   - ~
   topics:
   - ~
-- id: https://openalex.org/W4401818357
-  title: Object Recognition from Scientific Document Based on Compartment and Text
-    Blocks Refinement Framework
-  display_name: Object Recognition from Scientific Document Based on Compartment and
-    Text Blocks Refinement Framework
-  author:
-  - ~
-  ab: .na.character
-  publication_date: '2024-08-23'
-  so: SN Computer Science
-  so_id: https://openalex.org/S4210174798
-  host_organization: Springer Nature
-  issn_l: 2661-8907
-  url: https://doi.org/10.1007/s42979-024-03130-7
-  pdf_url: .na.character
-  license: .na.character
-  version: .na.character
-  first_page: .na.character
-  last_page: .na.character
-  volume: '5'
-  issue: '7'
-  is_oa: no
-  is_oa_anywhere: no
-  oa_status: closed
-  oa_url: .na.character
-  any_repository_has_fulltext: no
-  language: en
-  grants:
-  - ~
-  cited_by_count: 0
-  counts_by_year:
-  - ~
-  publication_year: 2024
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4401818357
-  ids:
-  - ~
-  doi: https://doi.org/10.1007/s42979-024-03130-7
-  type: article
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
 - id: https://openalex.org/W4403785402
   title: Differential amino acid usage leads to ubiquitous edge effect in proteomes
     across domains of life that can be explained by amino acid secondary structure
@@ -1485,6 +1420,119 @@ tabula:
   - ~
   topics:
   - ~
+- id: https://openalex.org/W4401818357
+  title: Object Recognition from Scientific Document Based on Compartment and Text
+    Blocks Refinement Framework
+  display_name: Object Recognition from Scientific Document Based on Compartment and
+    Text Blocks Refinement Framework
+  author:
+  - ~
+  ab: .na.character
+  publication_date: '2024-08-23'
+  so: SN Computer Science
+  so_id: https://openalex.org/S4210174798
+  host_organization: Springer Nature
+  issn_l: 2661-8907
+  url: https://doi.org/10.1007/s42979-024-03130-7
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: .na.character
+  last_page: .na.character
+  volume: '5'
+  issue: '7'
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4401818357
+  ids:
+  - ~
+  doi: https://doi.org/10.1007/s42979-024-03130-7
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4403637066
+  title: Diet and Habitat Comparison of Two Closely Related Darters (Percina bimaculata
+    and Percina caprodes)
+  display_name: Diet and Habitat Comparison of Two Closely Related Darters (Percina
+    bimaculata and Percina caprodes)
+  author:
+  - ~
+  ab: The Chesapeake Logperch (Percina bimaculata) is a medium-sized darter that has
+    had a limited distribution in Pennsylvania and Maryland. It is a threatened species
+    native to the Susquehanna River and historically occurred in the Potomac River.
+    It is currently being reviewed to determine if it should be listed as federally
+    endangered. There are major efforts to reintroduce the Chesapeake Logperch to
+    where it was historically native. Toward this end, we documented the selected
+    habitats and diets, to aid in the selection of new habitats for reintroduction.
+    Because historical data on habitat selection and diet of the Chesapeake Logperch
+    were not available, we compared these habitats selected to those of the closely
+    related Northern Logperch (P. caprodes semifasciata), and diet to the Ohio Logperch
+    (P. caprodes caprodes). The habitat occupied by the Chesapeake Logperch was only
+    a portion of that occupied by the Northern Logperch. Selection of streams for
+    reintroduction can use data presented herein for the Chesapeake Logperch and historical
+    data for the Northern Logperch. The diet of both the Chesapeake Logperch and the
+    Ohio Logperch indicated that their diets differ, thus the prey items reported
+    herein must be present when selecting putative reintroduction sites. These results
+    will help to create more informed choices for streams considered for the reintroduction
+    of the Chesapeake Logperch.
+  publication_date: '2024-10-22'
+  so: Conservation
+  so_id: https://openalex.org/S4210221333
+  host_organization: Multidisciplinary Digital Publishing Institute
+  issn_l: 2673-7159
+  url: https://doi.org/10.3390/conservation4040036
+  pdf_url: .na.character
+  license: cc-by
+  version: publishedVersion
+  first_page: '594'
+  last_page: '608'
+  volume: '4'
+  issue: '4'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://doi.org/10.3390/conservation4040036
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4403637066
+  ids:
+  - ~
+  doi: https://doi.org/10.3390/conservation4040036
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W4362560483
   title: Seasonal Variability of Marine Fish Diversity in Relation to Water Quality
     of East Midnapore Coast of West Bengal, India
@@ -1492,27 +1540,7 @@ tabula:
     Quality of East Midnapore Coast of West Bengal, India
   author:
   - ~
-  ab: Marine fishes are one of the important factors in stabilizing the local aquatic
-    ecosystem and regulating the nutritional socio-economy of local fisher folks.
-    The recent increases in anthropogenic activity, pollution and overfishing have
-    led to the decline of marine fish species richness and their local aquatic habitats.
-    In this study we sought to determine the inter-relationship between water quality,
-    anthropogenic activity, and fish landing stations through a 31 km stretch of the
-    East Midnapore coast in West Bengal, India which is known for its tourist destinations.
-    The study was conducted monthly on different trawler fish landing sites from Dec
-    2018 to Dec 2021. During this period, we took fish samples and identified them.
-    We obtained water quality data regarding Sea Surface Temperature (SST), Concentration
-    of Chlorophyll-a (Chl-a), Turbidity, and Dissolved Oxygen (DO) in order to identify
-    further correlation between the water quality analysis and species diversity.
-    154 numbers of commercially important marine fish species were documented. As
-    per the IUCN database, 13% of the total fish species fall under the red list category
-    and 16% of the species reveal a decreasing population trend. The availability
-    of those red-listed fish throughout the season has been shown in the matrix plot
-    to detect their gradual decrease in sighting. After analyzing the water quality
-    data, we found out that DO, SST, Turbidity, and Chl-a correlate with the species
-    richness on some sites and the water parameters are also differs during the seasons.
-    Both fish species richness and water quality have been affected on those fish
-    landing sites which have been subject to heavy anthropogenic loads.
+  ab: .na.character
   publication_date: '2023-03-31'
   so: Ocean Science Journal
   so_id: https://openalex.org/S70934194
@@ -1726,67 +1754,6 @@ tabula:
   - ~
   topics:
   - ~
-- id: https://openalex.org/W4360616814
-  title: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years and
-    Relationships with Species Traits
-  display_name: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years
-    and Relationships with Species Traits
-  author:
-  - ~
-  ab: We conducted a mussel survey of the Jacks Fork, Missouri, an Outstanding National
-    Resource Water, to document mussel diversity and distribution in the watershed,
-    to determine if changes had occurred since a previous survey in 1982, and to relate
-    observed changes to species traits. We surveyed mussels with timed tactile or
-    visual searches at 28 sites during summer from 2017 to 2019 and compared our results
-    with the 1982 survey. Catch per unit effort, number of live individuals, species
-    richness, and diversity were significantly lower in 2017–19 than in 1982. The
-    proportion of extirpation at the 11 resurveyed sites averaged 0.85 (range 0.50–1.00)
-    among species, and the proportion of colonization was 0.0 for all species. There
-    were no differences in the relative abundance of tribes, life-history strategies,
-    or species of conservation concern between the two surveys, suggesting that the
-    decline has occurred evenly across species, tribes, and life-history strategies.
-    Ten species are possibly extirpated from the basin. Causes of the mussel decline
-    in the Jacks Fork basin are unknown.
-  publication_date: '2023-03-23'
-  so: Freshwater Mollusk Biology and Conservation
-  so_id: https://openalex.org/S4210177210
-  host_organization: .na.character
-  issn_l: 2472-2944
-  url: https://doi.org/10.31931/fmbc-d-21-00012
-  pdf_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
-  license: .na.character
-  version: publishedVersion
-  first_page: .na.character
-  last_page: .na.character
-  volume: '26'
-  issue: '1'
-  is_oa: yes
-  is_oa_anywhere: yes
-  oa_status: gold
-  oa_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
-  any_repository_has_fulltext: no
-  language: en
-  grants:
-  - ~
-  cited_by_count: 0
-  counts_by_year:
-  - ~
-  publication_year: 2023
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4360616814
-  ids:
-  - ~
-  doi: https://doi.org/10.31931/fmbc-d-21-00012
-  type: article
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
 - id: https://openalex.org/W4378770596
   title: A Framework For Refining Text Classification and Object Recognition from
     Academic Articles
@@ -1980,6 +1947,67 @@ tabula:
   - ~
   doi: https://doi.org/10.21203/rs.3.rs-2610304/v1
   type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4360616814
+  title: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years and
+    Relationships with Species Traits
+  display_name: Changes in the Mussel Fauna of the Jacks Fork, Missouri over 35 Years
+    and Relationships with Species Traits
+  author:
+  - ~
+  ab: We conducted a mussel survey of the Jacks Fork, Missouri, an Outstanding National
+    Resource Water, to document mussel diversity and distribution in the watershed,
+    to determine if changes had occurred since a previous survey in 1982, and to relate
+    observed changes to species traits. We surveyed mussels with timed tactile or
+    visual searches at 28 sites during summer from 2017 to 2019 and compared our results
+    with the 1982 survey. Catch per unit effort, number of live individuals, species
+    richness, and diversity were significantly lower in 2017–19 than in 1982. The
+    proportion of extirpation at the 11 resurveyed sites averaged 0.85 (range 0.50–1.00)
+    among species, and the proportion of colonization was 0.0 for all species. There
+    were no differences in the relative abundance of tribes, life-history strategies,
+    or species of conservation concern between the two surveys, suggesting that the
+    decline has occurred evenly across species, tribes, and life-history strategies.
+    Ten species are possibly extirpated from the basin. Causes of the mussel decline
+    in the Jacks Fork basin are unknown.
+  publication_date: '2023-03-23'
+  so: Freshwater Mollusk Biology and Conservation
+  so_id: https://openalex.org/S4210177210
+  host_organization: .na.character
+  issn_l: 2472-2944
+  url: https://doi.org/10.31931/fmbc-d-21-00012
+  pdf_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
+  license: .na.character
+  version: publishedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: '26'
+  issue: '1'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://bioone.org/journals/freshwater-mollusk-biology-and-conservation/volume-26/issue-1/fmbc-d-21-00012/Changes-in-the-Mussel-Fauna-of-the-Jacks-Fork-Missouri/10.31931/fmbc-d-21-00012.pdf
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4360616814
+  ids:
+  - ~
+  doi: https://doi.org/10.31931/fmbc-d-21-00012
+  type: article
   referenced_works:
   - ~
   related_works:
