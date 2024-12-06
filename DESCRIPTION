@@ -18,15 +18,11 @@ Imports:
     dplyr,
     lubridate,
     ggplot2,
-    ggraph,
-    ggrepel,
     gh,
     gt,
     httr2,
-    igraph,
     knitr,
     quarto,
-    tidygraph,
     tools,
     yaml
 Encoding: UTF-8

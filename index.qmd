@@ -181,43 +181,16 @@ resume |>
 #| title: "Citations"
 #| fig-width: 7
 #| fig-height: 7
-#| eval: false
 cites <- do.call(rbind, citations)
-hist(
-  x = cites$publication_year,
-  xlab = "Citations",
-  main = NULL,
-  las = 1
-)
-```
+cites_year <- as.Date(ISOdate(cites$publication_year, 01, 01))
 
-```{r}
-#| label: dependency-network
-#| title: "Dependency Network"
-#| fig-width: 7
-#| fig-height: 7
-dependencies |>
-  as.matrix() |> 
-  igraph::graph_from_adjacency_matrix(mode = "directed") |> 
-  tidygraph::as_tbl_graph() |> 
-  ggraph::ggraph(layout = "fr") + 
-  ggraph::geom_edge_link(
-    color = "black",
-    arrow = grid::arrow(length = grid::unit(3, "mm")),
-    end_cap = ggraph::circle(6, "mm")
-  ) +
-  ggraph::geom_node_point(
-    mapping = ggplot2::aes(color = name %in% tesselle()),
-    size = 15
-  ) + 
-  ggraph::geom_node_label(
-    mapping = ggplot2::aes(label = name, color = name %in% tesselle()),
-    repel = TRUE
-  ) +
-  ggplot2::theme_void() +
-  ggplot2::theme(legend.position = "none") +
-  ggplot2::scale_color_manual(
-    values = c(`TRUE` = "#004488", `FALSE` = "darkgrey")
+ggplot2::ggplot(data = data.frame(year = cites_year)) +
+  ggplot2::aes(x = year) +
+  ggplot2::geom_histogram(binwidth = 365.25, fill = "grey", color = "black") +
+  ggplot2::labs(y = "Citations", caption = "Source: OpenAlex.") +
+  ggplot2::theme_bw() +
+  ggplot2::theme(
+    axis.title.x = ggplot2::element_blank()
   )
 ```
 
@@ -232,11 +205,10 @@ downloads |>
   ggplot2::geom_point() +
   ggplot2::geom_line() +
   ggplot2::scale_y_continuous(name = "Cumulative downloads", limits = c(0, NA)) +
-  ggplot2::labs(caption = "Source: RStudio CRAN mirror (adjusted).") +
+  ggplot2::labs(caption = "Source: RStudio CRAN mirror.") +
   ggplot2::theme_bw() +
   ggplot2::theme(
     legend.position = "bottom",
-    axis.text.x = ggplot2::element_text(angle = 45, hjust = 1, vjust = 1),
     axis.title.x = ggplot2::element_blank()
   ) +
   ggplot2::scale_color_manual(values = col_pkg, name = "Package")
@@ -283,6 +255,7 @@ downloads <- downloads |>
   split(f = downloads$package) |> 
   lapply(
     FUN = function(x) {
+      x <- x[-nrow(x), , drop = FALSE] # Remove current month
       down <- x$adjusted_downloads
       smooth <- convolve(x = down, y = c(1, 1, 1) / 3, type = "filter")
       x$smoothed <- c(down[[1]], smooth, down[[length(down)]])
