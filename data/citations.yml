@@ -46,8 +46,8 @@ alkahest:
   version: submittedVersion
   first_page: .na.character
   last_page: .na.character
-  volume: .na
-  issue: .na.character
+  volume: .na.character
+  issue: .na
   is_oa: no
   is_oa_anywhere: no
   oa_status: closed
@@ -91,7 +91,7 @@ alkahest:
     gradient and to track mineralogical transformations occurring during firing. This
     method should let to more precise comparisons than those based on estimating the
     equivalent firing temperature.
-  publication_date: '2023-12-31'
+  publication_date: '2023-01-01'
   so: ArchéoSciences
   so_id: https://openalex.org/S4210197814
   host_organization: .na.character
@@ -102,8 +102,8 @@ alkahest:
   version: publishedVersion
   first_page: '241'
   last_page: '256'
-  volume: .na
-  issue: '47'
+  volume: 47-2
+  issue: .na
   is_oa: yes
   is_oa_anywhere: yes
   oa_status: hybrid
@@ -211,7 +211,7 @@ isopleuros:
     gradient and to track mineralogical transformations occurring during firing. This
     method should let to more precise comparisons than those based on estimating the
     equivalent firing temperature.
-  publication_date: '2023-12-31'
+  publication_date: '2023-01-01'
   so: ArchéoSciences
   so_id: https://openalex.org/S4210197814
   host_organization: .na.character
@@ -222,8 +222,8 @@ isopleuros:
   version: publishedVersion
   first_page: '241'
   last_page: '256'
-  volume: .na
-  issue: '47'
+  volume: 47-2
+  issue: .na
   is_oa: yes
   is_oa_anywhere: yes
   oa_status: hybrid
@@ -367,6 +367,62 @@ kairos:
   topics:
   - ~
 khroma:
+- id: https://openalex.org/W4296797773
+  title: Termite sensitivity to temperature affects global wood decay rates
+  display_name: Termite sensitivity to temperature affects global wood decay rates
+  author:
+  - ~
+  ab: Deadwood is a large global carbon store with its store size partially determined
+    by biotic decay. Microbial wood decay rates are known to respond to changing temperature
+    and precipitation. Termites are also important decomposers in the tropics but
+    are less well studied. An understanding of their climate sensitivities is needed
+    to estimate climate change effects on wood carbon pools. Using data from 133 sites
+    spanning six continents, we found that termite wood discovery and consumption
+    were highly sensitive to temperature (with decay increasing >6.8 times per 10°C
+    increase in temperature)-even more so than microbes. Termite decay effects were
+    greatest in tropical seasonal forests, tropical savannas, and subtropical deserts.
+    With tropicalization (i.e., warming shifts to tropical climates), termite wood
+    decay will likely increase as termites access more of Earth's surface.
+  publication_date: '2022-09-22'
+  so: Science
+  so_id: https://openalex.org/S3880285
+  host_organization: American Association for the Advancement of Science
+  issn_l: 0036-8075
+  url: https://doi.org/10.1126/science.abo3856
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: '1440'
+  last_page: '1444'
+  volume: '377'
+  issue: '6613'
+  is_oa: no
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://pure.rug.nl/ws/files/649953492/science.abo3856.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 80
+  counts_by_year:
+  - ~
+  publication_year: 2022
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4296797773
+  ids:
+  - ~
+  doi: https://doi.org/10.1126/science.abo3856
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W4392712976
   title: How Does the Southern Annular Mode Control Surface Melt in East Antarctica?
   display_name: How Does the Southern Annular Mode Control Surface Melt in East Antarctica?
@@ -406,7 +462,7 @@ khroma:
   language: en
   grants:
   - ~
-  cited_by_count: 1
+  cited_by_count: 2
   counts_by_year:
   - ~
   publication_year: 2024
@@ -486,54 +542,6 @@ khroma:
   ids:
   - ~
   doi: https://doi.org/10.1016/j.scitotenv.2022.159882
-  type: article
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
-- id: https://openalex.org/W4404190162
-  title: Genome-wide local ancestry and the functional consequences of admixture in
-    African and European cattle populations
-  display_name: Genome-wide local ancestry and the functional consequences of admixture
-    in African and European cattle populations
-  author:
-  - ~
-  ab: .na.character
-  publication_date: '2024-11-08'
-  so: Heredity
-  so_id: https://openalex.org/S99462834
-  host_organization: Springer Nature
-  issn_l: 0018-067X
-  url: https://doi.org/10.1038/s41437-024-00734-w
-  pdf_url: .na.character
-  license: .na.character
-  version: .na.character
-  first_page: .na.character
-  last_page: .na.character
-  volume: .na.character
-  issue: .na.character
-  is_oa: no
-  is_oa_anywhere: no
-  oa_status: closed
-  oa_url: .na.character
-  any_repository_has_fulltext: no
-  language: en
-  grants:
-  - ~
-  cited_by_count: 0
-  counts_by_year:
-  - ~
-  publication_year: 2024
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4404190162
-  ids:
-  - ~
-  doi: https://doi.org/10.1038/s41437-024-00734-w
   type: article
   referenced_works:
   - ~
@@ -683,6 +691,54 @@ khroma:
   - ~
   topics:
   - ~
+- id: https://openalex.org/W4404190162
+  title: Genome-wide local ancestry and the functional consequences of admixture in
+    African and European cattle populations
+  display_name: Genome-wide local ancestry and the functional consequences of admixture
+    in African and European cattle populations
+  author:
+  - ~
+  ab: .na.character
+  publication_date: '2024-11-08'
+  so: Heredity
+  so_id: https://openalex.org/S99462834
+  host_organization: Springer Nature
+  issn_l: 0018-067X
+  url: https://doi.org/10.1038/s41437-024-00734-w
+  pdf_url: .na.character
+  license: .na.character
+  version: .na.character
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: no
+  is_oa_anywhere: no
+  oa_status: closed
+  oa_url: .na.character
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4404190162
+  ids:
+  - ~
+  doi: https://doi.org/10.1038/s41437-024-00734-w
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W4396525087
   title: 'Assessing the firing of ceramic materials: a seriation-based approach'
   display_name: 'Assessing the firing of ceramic materials: a seriation-based approach'
@@ -700,7 +756,7 @@ khroma:
     gradient and to track mineralogical transformations occurring during firing. This
     method should let to more precise comparisons than those based on estimating the
     equivalent firing temperature.
-  publication_date: '2023-12-31'
+  publication_date: '2023-01-01'
   so: ArchéoSciences
   so_id: https://openalex.org/S4210197814
   host_organization: .na.character
@@ -711,8 +767,8 @@ khroma:
   version: publishedVersion
   first_page: '241'
   last_page: '256'
-  volume: .na.character
-  issue: '47'
+  volume: 47-2
+  issue: .na.character
   is_oa: yes
   is_oa_anywhere: yes
   oa_status: hybrid
@@ -1022,7 +1078,7 @@ tabula:
   language: en
   grants:
   - ~
-  cited_by_count: 5
+  cited_by_count: 6
   counts_by_year:
   - ~
   publication_year: 2023
@@ -1111,6 +1167,131 @@ tabula:
   - ~
   topics:
   - ~
+- id: https://openalex.org/W4403785402
+  title: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
+  display_name: Differential amino acid usage leads to ubiquitous edge effect in proteomes
+    across domains of life that can be explained by amino acid secondary structure
+    propensities
+  author:
+  - ~
+  ab: Amino acids are the building blocks of proteins and enzymes which are essential
+    for life. Understanding amino acid usage offers insights into protein function
+    and molecular mechanisms underlying life histories. However, genome-wide patterns
+    of amino acid usage across domains of life remain poorly understood. Here, we
+    analysed the proteomes of 5590 species across four domains and found that only
+    a few amino acids are consistently the most and least used. This differential
+    usage results in lower amino acid usage diversity at the most and least frequent
+    ranks, creating a ubiquitous inverted U-shape pattern of amino acid diversity
+    and rank which we call an 'edge effect' across proteomes and domains of life.
+    This effect likely stems from protein secondary structural constraints, not the
+    evolutionary chronology of amino acid incorporation into the genetic code, highlighting
+    the functional rather than evolutionary influences on amino acid usage. We also
+    tested other contemporary hypotheses regarding amino acid usage in proteomes and
+    found that amino acid usage varies across life's domains and is only weakly influenced
+    by growth temperature. Our findings reveal a novel and pervasive amino acid usage
+    pattern across genomes with the potential to help us probe deep evolutionary relationships
+    and advance synthetic biology.
+  publication_date: '2024-10-26'
+  so: Scientific Reports
+  so_id: https://openalex.org/S196734849
+  host_organization: Nature Portfolio
+  issn_l: 2045-2322
+  url: https://doi.org/10.1038/s41598-024-77319-4
+  pdf_url: .na.character
+  license: cc-by
+  version: publishedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: '14'
+  issue: '1'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: gold
+  oa_url: https://doi.org/10.1038/s41598-024-77319-4
+  any_repository_has_fulltext: no
+  language: en
+  grants:
+  - ~
+  cited_by_count: 1
+  counts_by_year:
+  - ~
+  publication_year: 2024
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4403785402
+  ids:
+  - ~
+  doi: https://doi.org/10.1038/s41598-024-77319-4
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4288748945
+  title: 'Archeofrag: an R package for Refitting and Spatial Analysis in Archaeology'
+  display_name: 'Archeofrag: an R package for Refitting and Spatial Analysis in Archaeology'
+  author:
+  - ~
+  ab: 'Distinguishing between spatial entities is fundamental in archaeology since
+    archaeologists deal with spatial phenomena at multiple scales of analysis.During
+    an excavation, objects are discovered within various types of spatial units e.g.,
+    stratigraphic layers, pits, hearths and houses.Spatial units are far from being
+    raw data, and the identification and determination of their boundaries is the
+    result of conjoint lines and methods of investigation, to name only a few: field
+    observations, geoarchaeology, sedimentology, and the study of archaeological "refits".Refitting
+    fragments belonged to the same object at some moment in the past.More precisely,
+    archaeologists deduce former connection relationships from the symmetry and the
+    possibility of contact of significantly large surface areas from two fragments,
+    which can be physically adjusted (the fragments "refit").Here, "connection" is
+    used as a shorthand to refer to the connection relationship that existed in the
+    past between two areas of an object before they were broken into fragments.Archaeological
+    refitting analysis has several aims:'
+  publication_date: '2022-07-30'
+  so: The Journal of Open Source Software
+  so_id: https://openalex.org/S4210214273
+  host_organization: Open Journals
+  issn_l: 2475-9066
+  url: https://doi.org/10.21105/joss.04335
+  pdf_url: https://joss.theoj.org/papers/10.21105/joss.04335.pdf
+  license: cc-by
+  version: publishedVersion
+  first_page: '4335'
+  last_page: '4335'
+  volume: '7'
+  issue: '75'
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: diamond
+  oa_url: https://joss.theoj.org/papers/10.21105/joss.04335.pdf
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 9
+  counts_by_year:
+  - ~
+  publication_year: 2022
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4288748945
+  ids:
+  - ~
+  doi: https://doi.org/10.21105/joss.04335
+  type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
 - id: https://openalex.org/W2944104845
   title: Characterizing the second wave of fish and invertebrate colonization of an
     offshore petroleum platform
@@ -1177,65 +1358,6 @@ tabula:
   - ~
   topics:
   - ~
-- id: https://openalex.org/W4288748945
-  title: 'Archeofrag: an R package for Refitting and Spatial Analysis in Archaeology'
-  display_name: 'Archeofrag: an R package for Refitting and Spatial Analysis in Archaeology'
-  author:
-  - ~
-  ab: 'Distinguishing between spatial entities is fundamental in archaeology since
-    archaeologists deal with spatial phenomena at multiple scales of analysis.During
-    an excavation, objects are discovered within various types of spatial units e.g.,
-    stratigraphic layers, pits, hearths and houses.Spatial units are far from being
-    raw data, and the identification and determination of their boundaries is the
-    result of conjoint lines and methods of investigation, to name only a few: field
-    observations, geoarchaeology, sedimentology, and the study of archaeological "refits".Refitting
-    fragments belonged to the same object at some moment in the past.More precisely,
-    archaeologists deduce former connection relationships from the symmetry and the
-    possibility of contact of significantly large surface areas from two fragments,
-    which can be physically adjusted (the fragments "refit").Here, "connection" is
-    used as a shorthand to refer to the connection relationship that existed in the
-    past between two areas of an object before they were broken into fragments.Archaeological
-    refitting analysis has several aims:'
-  publication_date: '2022-07-30'
-  so: The Journal of Open Source Software
-  so_id: https://openalex.org/S4210214273
-  host_organization: Open Journals
-  issn_l: 2475-9066
-  url: https://doi.org/10.21105/joss.04335
-  pdf_url: https://joss.theoj.org/papers/10.21105/joss.04335.pdf
-  license: cc-by
-  version: publishedVersion
-  first_page: '4335'
-  last_page: '4335'
-  volume: '7'
-  issue: '75'
-  is_oa: yes
-  is_oa_anywhere: yes
-  oa_status: diamond
-  oa_url: https://joss.theoj.org/papers/10.21105/joss.04335.pdf
-  any_repository_has_fulltext: yes
-  language: en
-  grants:
-  - ~
-  cited_by_count: 7
-  counts_by_year:
-  - ~
-  publication_year: 2022
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4288748945
-  ids:
-  - ~
-  doi: https://doi.org/10.21105/joss.04335
-  type: article
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
 - id: https://openalex.org/W3217092927
   title: 'Distribution of chigger mites (Acari: Trombiculidae) over hosts, parasitopes,
     collection localities, and seasons in northern Iran'
@@ -1265,7 +1387,7 @@ tabula:
   language: en
   grants:
   - ~
-  cited_by_count: 8
+  cited_by_count: 9
   counts_by_year:
   - ~
   publication_year: 2021
@@ -1344,72 +1466,6 @@ tabula:
   - ~
   doi: https://doi.org/10.1101/2024.07.12.599492
   type: preprint
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
-- id: https://openalex.org/W4403785402
-  title: Differential amino acid usage leads to ubiquitous edge effect in proteomes
-    across domains of life that can be explained by amino acid secondary structure
-    propensities
-  display_name: Differential amino acid usage leads to ubiquitous edge effect in proteomes
-    across domains of life that can be explained by amino acid secondary structure
-    propensities
-  author:
-  - ~
-  ab: Amino acids are the building blocks of proteins and enzymes which are essential
-    for life. Understanding amino acid usage offers insights into protein function
-    and molecular mechanisms underlying life histories. However, genome-wide patterns
-    of amino acid usage across domains of life remain poorly understood. Here, we
-    analysed the proteomes of 5590 species across four domains and found that only
-    a few amino acids are consistently the most and least used. This differential
-    usage results in lower amino acid usage diversity at the most and least frequent
-    ranks, creating a ubiquitous inverted U-shape pattern of amino acid diversity
-    and rank which we call an 'edge effect' across proteomes and domains of life.
-    This effect likely stems from protein secondary structural constraints, not the
-    evolutionary chronology of amino acid incorporation into the genetic code, highlighting
-    the functional rather than evolutionary influences on amino acid usage. We also
-    tested other contemporary hypotheses regarding amino acid usage in proteomes and
-    found that amino acid usage varies across life's domains and is only weakly influenced
-    by growth temperature. Our findings reveal a novel and pervasive amino acid usage
-    pattern across genomes with the potential to help us probe deep evolutionary relationships
-    and advance synthetic biology.
-  publication_date: '2024-10-26'
-  so: Scientific Reports
-  so_id: https://openalex.org/S196734849
-  host_organization: Nature Portfolio
-  issn_l: 2045-2322
-  url: https://doi.org/10.1038/s41598-024-77319-4
-  pdf_url: .na.character
-  license: cc-by
-  version: publishedVersion
-  first_page: .na.character
-  last_page: .na.character
-  volume: '14'
-  issue: '1'
-  is_oa: yes
-  is_oa_anywhere: yes
-  oa_status: gold
-  oa_url: https://doi.org/10.1038/s41598-024-77319-4
-  any_repository_has_fulltext: no
-  language: en
-  grants:
-  - ~
-  cited_by_count: 0
-  counts_by_year:
-  - ~
-  publication_year: 2024
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4403785402
-  ids:
-  - ~
-  doi: https://doi.org/10.1038/s41598-024-77319-4
-  type: article
   referenced_works:
   - ~
   related_works:
@@ -1754,71 +1810,6 @@ tabula:
   - ~
   topics:
   - ~
-- id: https://openalex.org/W4378770596
-  title: A Framework For Refining Text Classification and Object Recognition from
-    Academic Articles
-  display_name: A Framework For Refining Text Classification and Object Recognition
-    from Academic Articles
-  author:
-  - ~
-  ab: With the widespread use of the internet, it has become increasingly crucial
-    to extract specific information from vast amounts of academic articles efficiently.
-    Data mining techniques are generally employed to solve this issue. However, data
-    mining for academic articles is challenging since it requires automatically extracting
-    specific patterns in complex and unstructured layout documents. Current data mining
-    methods for academic articles employ rule-based(RB) or machine learning(ML) approaches.
-    However, using rule-based methods incurs a high coding cost for complex typesetting
-    articles. On the other hand, simply using machine learning methods requires annotation
-    work for complex content types within the paper, which can be costly. Furthermore,
-    only using machine learning can lead to cases where patterns easily recognized
-    by rule-based methods are mistakenly extracted. To overcome these issues, from
-    the perspective of analyzing the standard layout and typesetting used in the specified
-    publication, we emphasize implementing specific methods for specific characteristics
-    in academic articles. We have developed a novel Text Block Refinement Framework
-    (TBRF), a machine learning and rule-based scheme hybrid. We used the well-known
-    ACL proceeding articles as experimental data for the validation experiment. The
-    experiment shows that our approach achieved over 95% classification accuracy and
-    90% detection accuracy for tables and figures.
-  publication_date: '2023-01-01'
-  so: arXiv (Cornell University)
-  so_id: https://openalex.org/S4306400194
-  host_organization: Cornell University
-  issn_l: .na.character
-  url: https://arxiv.org/abs/2305.17401
-  pdf_url: .na.character
-  license: other-oa
-  version: submittedVersion
-  first_page: .na.character
-  last_page: .na.character
-  volume: .na.character
-  issue: .na.character
-  is_oa: yes
-  is_oa_anywhere: yes
-  oa_status: green
-  oa_url: https://arxiv.org/abs/2305.17401
-  any_repository_has_fulltext: yes
-  language: en
-  grants:
-  - ~
-  cited_by_count: 0
-  counts_by_year:
-  - ~
-  publication_year: 2023
-  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4378770596
-  ids:
-  - ~
-  doi: https://doi.org/10.48550/arxiv.2305.17401
-  type: preprint
-  referenced_works:
-  - ~
-  related_works:
-  - ~
-  is_paratext: no
-  is_retracted: no
-  concepts:
-  - ~
-  topics:
-  - ~
 - id: https://openalex.org/W4317772458
   title: Changes in the Freshwater Mussels of the Missouri Portion of the Ozark Highlands
     Eleven Point River, 1982–1985 and 2012–2019
@@ -2008,6 +1999,141 @@ tabula:
   - ~
   doi: https://doi.org/10.31931/fmbc-d-21-00012
   type: article
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4378770596
+  title: A Framework For Refining Text Classification and Object Recognition from
+    Academic Articles
+  display_name: A Framework For Refining Text Classification and Object Recognition
+    from Academic Articles
+  author:
+  - ~
+  ab: With the widespread use of the internet, it has become increasingly crucial
+    to extract specific information from vast amounts of academic articles efficiently.
+    Data mining techniques are generally employed to solve this issue. However, data
+    mining for academic articles is challenging since it requires automatically extracting
+    specific patterns in complex and unstructured layout documents. Current data mining
+    methods for academic articles employ rule-based(RB) or machine learning(ML) approaches.
+    However, using rule-based methods incurs a high coding cost for complex typesetting
+    articles. On the other hand, simply using machine learning methods requires annotation
+    work for complex content types within the paper, which can be costly. Furthermore,
+    only using machine learning can lead to cases where patterns easily recognized
+    by rule-based methods are mistakenly extracted. To overcome these issues, from
+    the perspective of analyzing the standard layout and typesetting used in the specified
+    publication, we emphasize implementing specific methods for specific characteristics
+    in academic articles. We have developed a novel Text Block Refinement Framework
+    (TBRF), a machine learning and rule-based scheme hybrid. We used the well-known
+    ACL proceeding articles as experimental data for the validation experiment. The
+    experiment shows that our approach achieved over 95% classification accuracy and
+    90% detection accuracy for tables and figures.
+  publication_date: '2023-01-01'
+  so: arXiv (Cornell University)
+  so_id: https://openalex.org/S4306400194
+  host_organization: Cornell University
+  issn_l: .na.character
+  url: https://arxiv.org/abs/2305.17401
+  pdf_url: .na.character
+  license: other-oa
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://arxiv.org/abs/2305.17401
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4378770596
+  ids:
+  - ~
+  doi: https://doi.org/10.48550/arxiv.2305.17401
+  type: preprint
+  referenced_works:
+  - ~
+  related_works:
+  - ~
+  is_paratext: no
+  is_retracted: no
+  concepts:
+  - ~
+  topics:
+  - ~
+- id: https://openalex.org/W4389820963
+  title: Object Recognition from Scientific Document based on Compartment Refinement
+    Framework
+  display_name: Object Recognition from Scientific Document based on Compartment Refinement
+    Framework
+  author:
+  - ~
+  ab: 'With the rapid development of the internet in the past decade, it has become
+    increasingly important to extract valuable information from vast resources efficiently,
+    which is crucial for establishing a comprehensive digital ecosystem, particularly
+    in the context of research surveys and comprehension. The foundation of these
+    tasks focuses on accurate extraction and deep mining of data from scientific documents,
+    which are essential for building a robust data infrastructure. However, parsing
+    raw data or extracting data from complex scientific documents have been ongoing
+    challenges. Current data extraction methods for scientific documents typically
+    use rule-based (RB) or machine learning (ML) approaches. However, using rule-based
+    methods can incur high coding costs for articles with intricate typesetting. Conversely,
+    relying solely on machine learning methods necessitates annotation work for complex
+    content types within the scientific document, which can be costly. Additionally,
+    few studies have thoroughly defined and explored the hierarchical layout within
+    scientific documents. The lack of a comprehensive definition of the internal structure
+    and elements of the documents indirectly impacts the accuracy of text classification
+    and object recognition tasks. From the perspective of analyzing the standard layout
+    and typesetting used in the specified publication, we propose a new document layout
+    analysis framework called CTBR(Compartment & Text Blocks Refinement). Firstly,
+    we define scientific documents into hierarchical divisions: base domain, compartment,
+    and text blocks. Next, we conduct an in-depth exploration and classification of
+    the meanings of text blocks. Finally, we utilize the results of text block classification
+    to implement object recognition within scientific documents based on rule-based
+    compartment segmentation.'
+  publication_date: '2023-01-01'
+  so: arXiv (Cornell University)
+  so_id: https://openalex.org/S4306400194
+  host_organization: Cornell University
+  issn_l: .na.character
+  url: https://arxiv.org/abs/2312.09038
+  pdf_url: .na.character
+  license: other-oa
+  version: submittedVersion
+  first_page: .na.character
+  last_page: .na.character
+  volume: .na.character
+  issue: .na.character
+  is_oa: yes
+  is_oa_anywhere: yes
+  oa_status: green
+  oa_url: https://arxiv.org/abs/2312.09038
+  any_repository_has_fulltext: yes
+  language: en
+  grants:
+  - ~
+  cited_by_count: 0
+  counts_by_year:
+  - ~
+  publication_year: 2023
+  cited_by_api_url: https://api.openalex.org/works?filter=cites:W4389820963
+  ids:
+  - ~
+  doi: https://doi.org/10.48550/arxiv.2312.09038
+  type: preprint
   referenced_works:
   - ~
   related_works:

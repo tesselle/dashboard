@@ -2227,7 +2227,7 @@
     color: 77AADD
     default: no
     description: a feature request or enhancement
-  state: open
+  state: closed
   locked: no
   assignee:
     login: nfrerebeau
@@ -2272,8 +2272,8 @@
   milestone: ~
   comments: 0
   created_at: '2022-05-27T10:52:49Z'
-  updated_at: '2024-09-11T14:49:59Z'
-  closed_at: ~
+  updated_at: '2024-11-20T19:41:23Z'
+  closed_at: '2024-11-20T19:41:23Z'
   author_association: MEMBER
   active_lock_reason: ~
   body: "Marko Porčić (2013). The goodness of fit and statistical significance of
@@ -2292,7 +2292,7 @@
     eyes: 0
   timeline_url: https://api.github.com/repos/tesselle/kairos/issues/4/timeline
   performed_via_github_app: ~
-  state_reason: ~
+  state_reason: completed
   score: 1.0
 - url: https://api.github.com/repos/tesselle/kairos/issues/2
   repository_url: https://api.github.com/repos/tesselle/kairos
