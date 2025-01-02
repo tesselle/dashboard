@@ -31,6 +31,7 @@ if (!fail(works)) {
 
       self <- oa$doi %in% doi$doi
       oa <- oa[!self, , drop = FALSE]
+      oa <- oa[order(oa$publication_date, decreasing = TRUE), ]
       if (nrow(oa) == 0) return(NULL)
       oa
     }
